@@ -75,10 +75,12 @@ test('permite cambiar ojos que no cargan sin consumir intentos', async ({ page }
 test('actualiza generaciones en ojos y gritos durante una partida', async ({ page }) => {
   await observeAudio(page);
   for (const route of ['ojos', 'gritos']) {
-    await page.goto(`?seed=42#/${route}`); await expect(page.locator('h1')).toBeVisible();
+    await page.goto(`?seed=42#/${route}`); await expect(page.locator(route==='ojos'?'.eye-clue':'.cry-choices')).toBeVisible();
     await openSettings(page); await page.getByRole('button', { name: 'Quitar todas', exact: true }).click();
     await expect(page.getByRole('heading', { name: 'Elige al menos una generación' })).toBeVisible();
     await page.getByRole('checkbox', { name: '9 Paldea', exact: true }).check(); await closeSettings(page);
+    await expect(page.locator('.round-header')).toContainText(route === 'ojos' ? 'Ronda 1 de 3' : 'Grito 1');
+    if(route==='gritos')await expect.poll(()=>page.evaluate(()=>window.testAudios.at(-1)?.getAttribute('src')||'')).toMatch(/\/cries\/\d+\.(ogg|mp3)$/);
     const id = route === 'ojos' ? Number((await page.locator('.eye-clue').getAttribute('src'))!.match(/\/(\d+)\.webp/)![1]) : await page.evaluate(() => Number(window.testAudios.at(-1)!.src.match(/\/(\d+)\.(ogg|mp3)/)![1]));
     expect(data.species.find(s => s.id === data.pokemon.find(p => p.id === id)!.speciesId)!.generation).toBe(9);
     await expect(page.locator('.round-header')).toContainText(route === 'ojos' ? 'Ronda 1 de 3' : 'Grito 1');
