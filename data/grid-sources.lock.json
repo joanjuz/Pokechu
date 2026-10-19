@@ -1,0 +1,13 @@
+{
+  "sourceRevision": "6fd69dfe90465ba96534f6816fc817737d1f97f6",
+  "files": {
+    "ability_names": {
+      "gitSha": "4964153d0f12c37edbc1911a263bb191dc66de7c",
+      "lineEnding": "lf"
+    },
+    "pokemon_abilities": {
+      "gitSha": "c0999f0c4c5cfa8109951e6405b961bc7ef1b559",
+      "lineEnding": "crlf"
+    }
+  }
+}

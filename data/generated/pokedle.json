@@ -1,0 +1,7187 @@
+{
+  "version": "pokedle-v1",
+  "catalogVersion": "v1-6fd69dfe90",
+  "sourceRevision": "6fd69dfe90465ba96534f6816fc817737d1f97f6",
+  "csvSha256": {
+    "pokemon": "16c81c33188b0eac403aa2f759fcbe9e42c611f722d263f5b5a6a5bff9f8ce6b",
+    "pokemon_species": "e66e2eeb25fd3836b0ebab6bf87bbf01960aa3c0555e2bac495fa8393c5e0c45",
+    "pokemon_colors": "02f0753b509eacc92eb7896e932f3e873d86697de6449491ecebb278b1e60c1a"
+  },
+  "traits": {
+    "1": {
+      "height": 7,
+      "weight": 69,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 1
+    },
+    "2": {
+      "height": 10,
+      "weight": 130,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 1
+    },
+    "3": {
+      "height": 20,
+      "weight": 1000,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 1
+    },
+    "4": {
+      "height": 6,
+      "weight": 85,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "5": {
+      "height": 11,
+      "weight": 190,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "6": {
+      "height": 17,
+      "weight": 905,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 1
+    },
+    "7": {
+      "height": 5,
+      "weight": 90,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "8": {
+      "height": 10,
+      "weight": 225,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "9": {
+      "height": 16,
+      "weight": 855,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 1
+    },
+    "10": {
+      "height": 3,
+      "weight": 29,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 1
+    },
+    "11": {
+      "height": 7,
+      "weight": 99,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 1
+    },
+    "12": {
+      "height": 11,
+      "weight": 320,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 1
+    },
+    "13": {
+      "height": 3,
+      "weight": 32,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "14": {
+      "height": 6,
+      "weight": 100,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "15": {
+      "height": 10,
+      "weight": 295,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 1
+    },
+    "16": {
+      "height": 3,
+      "weight": 18,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "17": {
+      "height": 11,
+      "weight": 300,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "18": {
+      "height": 15,
+      "weight": 395,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 1
+    },
+    "19": {
+      "height": 3,
+      "weight": 35,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "20": {
+      "height": 7,
+      "weight": 185,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "21": {
+      "height": 3,
+      "weight": 20,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "22": {
+      "height": 12,
+      "weight": 380,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "23": {
+      "height": 20,
+      "weight": 69,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "24": {
+      "height": 35,
+      "weight": 650,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "25": {
+      "height": 4,
+      "weight": 60,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "26": {
+      "height": 8,
+      "weight": 300,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 1
+    },
+    "27": {
+      "height": 6,
+      "weight": 120,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "28": {
+      "height": 10,
+      "weight": 295,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "29": {
+      "height": 4,
+      "weight": 70,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "30": {
+      "height": 8,
+      "weight": 200,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "31": {
+      "height": 13,
+      "weight": 600,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 1
+    },
+    "32": {
+      "height": 5,
+      "weight": 90,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "33": {
+      "height": 9,
+      "weight": 195,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "34": {
+      "height": 14,
+      "weight": 620,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 1
+    },
+    "35": {
+      "height": 6,
+      "weight": 75,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 1
+    },
+    "36": {
+      "height": 13,
+      "weight": 400,
+      "color": "Rosa",
+      "stage": 2,
+      "generation": 1
+    },
+    "37": {
+      "height": 6,
+      "weight": 99,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "38": {
+      "height": 11,
+      "weight": 199,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "39": {
+      "height": 5,
+      "weight": 55,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 1
+    },
+    "40": {
+      "height": 10,
+      "weight": 120,
+      "color": "Rosa",
+      "stage": 2,
+      "generation": 1
+    },
+    "41": {
+      "height": 8,
+      "weight": 75,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "42": {
+      "height": 16,
+      "weight": 550,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "43": {
+      "height": 5,
+      "weight": 54,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "44": {
+      "height": 8,
+      "weight": 86,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "45": {
+      "height": 12,
+      "weight": 186,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 1
+    },
+    "46": {
+      "height": 3,
+      "weight": 54,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "47": {
+      "height": 10,
+      "weight": 295,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "48": {
+      "height": 10,
+      "weight": 300,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "49": {
+      "height": 15,
+      "weight": 125,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "50": {
+      "height": 2,
+      "weight": 8,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "51": {
+      "height": 7,
+      "weight": 333,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "52": {
+      "height": 4,
+      "weight": 42,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "53": {
+      "height": 10,
+      "weight": 320,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "54": {
+      "height": 8,
+      "weight": 196,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "55": {
+      "height": 17,
+      "weight": 766,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "56": {
+      "height": 5,
+      "weight": 280,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "57": {
+      "height": 10,
+      "weight": 320,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "58": {
+      "height": 7,
+      "weight": 190,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "59": {
+      "height": 19,
+      "weight": 1550,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "60": {
+      "height": 6,
+      "weight": 124,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "61": {
+      "height": 10,
+      "weight": 200,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "62": {
+      "height": 13,
+      "weight": 540,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 1
+    },
+    "63": {
+      "height": 9,
+      "weight": 195,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "64": {
+      "height": 13,
+      "weight": 565,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "65": {
+      "height": 15,
+      "weight": 480,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 1
+    },
+    "66": {
+      "height": 8,
+      "weight": 195,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 1
+    },
+    "67": {
+      "height": 15,
+      "weight": 705,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 1
+    },
+    "68": {
+      "height": 16,
+      "weight": 1300,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 1
+    },
+    "69": {
+      "height": 7,
+      "weight": 40,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 1
+    },
+    "70": {
+      "height": 10,
+      "weight": 64,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 1
+    },
+    "71": {
+      "height": 17,
+      "weight": 155,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 1
+    },
+    "72": {
+      "height": 9,
+      "weight": 455,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "73": {
+      "height": 16,
+      "weight": 550,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "74": {
+      "height": 4,
+      "weight": 200,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "75": {
+      "height": 10,
+      "weight": 1050,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "76": {
+      "height": 14,
+      "weight": 3000,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 1
+    },
+    "77": {
+      "height": 10,
+      "weight": 300,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "78": {
+      "height": 17,
+      "weight": 950,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "79": {
+      "height": 12,
+      "weight": 360,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 1
+    },
+    "80": {
+      "height": 16,
+      "weight": 785,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 1
+    },
+    "81": {
+      "height": 3,
+      "weight": 60,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 1
+    },
+    "82": {
+      "height": 10,
+      "weight": 600,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 1
+    },
+    "83": {
+      "height": 8,
+      "weight": 150,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "84": {
+      "height": 14,
+      "weight": 392,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "85": {
+      "height": 18,
+      "weight": 852,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "86": {
+      "height": 11,
+      "weight": 900,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 1
+    },
+    "87": {
+      "height": 17,
+      "weight": 1200,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 1
+    },
+    "88": {
+      "height": 9,
+      "weight": 300,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "89": {
+      "height": 12,
+      "weight": 300,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "90": {
+      "height": 3,
+      "weight": 40,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "91": {
+      "height": 15,
+      "weight": 1325,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "92": {
+      "height": 13,
+      "weight": 1,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "93": {
+      "height": 16,
+      "weight": 1,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "94": {
+      "height": 15,
+      "weight": 405,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 1
+    },
+    "95": {
+      "height": 88,
+      "weight": 2100,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 1
+    },
+    "96": {
+      "height": 10,
+      "weight": 324,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "97": {
+      "height": 16,
+      "weight": 756,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "98": {
+      "height": 4,
+      "weight": 65,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "99": {
+      "height": 13,
+      "weight": 600,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "100": {
+      "height": 5,
+      "weight": 104,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "101": {
+      "height": 12,
+      "weight": 666,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "102": {
+      "height": 4,
+      "weight": 25,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 1
+    },
+    "103": {
+      "height": 20,
+      "weight": 1200,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "104": {
+      "height": 4,
+      "weight": 65,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "105": {
+      "height": 10,
+      "weight": 450,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "106": {
+      "height": 15,
+      "weight": 498,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "107": {
+      "height": 14,
+      "weight": 502,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "108": {
+      "height": 12,
+      "weight": 655,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 1
+    },
+    "109": {
+      "height": 6,
+      "weight": 10,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "110": {
+      "height": 12,
+      "weight": 95,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "111": {
+      "height": 10,
+      "weight": 1150,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 1
+    },
+    "112": {
+      "height": 19,
+      "weight": 1200,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 1
+    },
+    "113": {
+      "height": 11,
+      "weight": 346,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 1
+    },
+    "114": {
+      "height": 10,
+      "weight": 350,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "115": {
+      "height": 22,
+      "weight": 800,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "116": {
+      "height": 4,
+      "weight": 80,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "117": {
+      "height": 12,
+      "weight": 250,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "118": {
+      "height": 6,
+      "weight": 150,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "119": {
+      "height": 13,
+      "weight": 390,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "120": {
+      "height": 8,
+      "weight": 345,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "121": {
+      "height": 11,
+      "weight": 800,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 1
+    },
+    "122": {
+      "height": 13,
+      "weight": 545,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 1
+    },
+    "123": {
+      "height": 15,
+      "weight": 560,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 1
+    },
+    "124": {
+      "height": 14,
+      "weight": 406,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "125": {
+      "height": 11,
+      "weight": 300,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "126": {
+      "height": 13,
+      "weight": 445,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "127": {
+      "height": 15,
+      "weight": 550,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "128": {
+      "height": 14,
+      "weight": 884,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "129": {
+      "height": 9,
+      "weight": 100,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 1
+    },
+    "130": {
+      "height": 65,
+      "weight": 2350,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "131": {
+      "height": 25,
+      "weight": 2200,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "132": {
+      "height": 3,
+      "weight": 40,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "133": {
+      "height": 3,
+      "weight": 65,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "134": {
+      "height": 10,
+      "weight": 290,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "135": {
+      "height": 8,
+      "weight": 245,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 1
+    },
+    "136": {
+      "height": 9,
+      "weight": 250,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 1
+    },
+    "137": {
+      "height": 8,
+      "weight": 365,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 1
+    },
+    "138": {
+      "height": 4,
+      "weight": 75,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "139": {
+      "height": 10,
+      "weight": 350,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "140": {
+      "height": 5,
+      "weight": 115,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 1
+    },
+    "141": {
+      "height": 13,
+      "weight": 405,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 1
+    },
+    "142": {
+      "height": 18,
+      "weight": 590,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "143": {
+      "height": 21,
+      "weight": 4600,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 1
+    },
+    "144": {
+      "height": 17,
+      "weight": 554,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "145": {
+      "height": 16,
+      "weight": 526,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "146": {
+      "height": 20,
+      "weight": 600,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 1
+    },
+    "147": {
+      "height": 18,
+      "weight": 33,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 1
+    },
+    "148": {
+      "height": 40,
+      "weight": 165,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 1
+    },
+    "149": {
+      "height": 22,
+      "weight": 2100,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 1
+    },
+    "150": {
+      "height": 20,
+      "weight": 1220,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 1
+    },
+    "151": {
+      "height": 4,
+      "weight": 40,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 1
+    },
+    "152": {
+      "height": 9,
+      "weight": 64,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 2
+    },
+    "153": {
+      "height": 12,
+      "weight": 158,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 2
+    },
+    "154": {
+      "height": 18,
+      "weight": 1005,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 2
+    },
+    "155": {
+      "height": 5,
+      "weight": 79,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "156": {
+      "height": 9,
+      "weight": 190,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 2
+    },
+    "157": {
+      "height": 17,
+      "weight": 795,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 2
+    },
+    "158": {
+      "height": 6,
+      "weight": 95,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "159": {
+      "height": 11,
+      "weight": 250,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 2
+    },
+    "160": {
+      "height": 23,
+      "weight": 888,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 2
+    },
+    "161": {
+      "height": 8,
+      "weight": 60,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "162": {
+      "height": 18,
+      "weight": 325,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "163": {
+      "height": 7,
+      "weight": 212,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "164": {
+      "height": 16,
+      "weight": 408,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "165": {
+      "height": 10,
+      "weight": 108,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "166": {
+      "height": 14,
+      "weight": 356,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "167": {
+      "height": 5,
+      "weight": 85,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 2
+    },
+    "168": {
+      "height": 11,
+      "weight": 335,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "169": {
+      "height": 18,
+      "weight": 750,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 2
+    },
+    "170": {
+      "height": 5,
+      "weight": 120,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "171": {
+      "height": 12,
+      "weight": 225,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 2
+    },
+    "172": {
+      "height": 3,
+      "weight": 20,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "173": {
+      "height": 3,
+      "weight": 30,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "174": {
+      "height": 3,
+      "weight": 10,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "175": {
+      "height": 3,
+      "weight": 15,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 2
+    },
+    "176": {
+      "height": 6,
+      "weight": 32,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 2
+    },
+    "177": {
+      "height": 2,
+      "weight": 20,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 2
+    },
+    "178": {
+      "height": 15,
+      "weight": 150,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 2
+    },
+    "179": {
+      "height": 6,
+      "weight": 78,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 2
+    },
+    "180": {
+      "height": 8,
+      "weight": 133,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 2
+    },
+    "181": {
+      "height": 14,
+      "weight": 615,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 2
+    },
+    "182": {
+      "height": 4,
+      "weight": 58,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 2
+    },
+    "183": {
+      "height": 4,
+      "weight": 85,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 2
+    },
+    "184": {
+      "height": 8,
+      "weight": 285,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 2
+    },
+    "185": {
+      "height": 12,
+      "weight": 380,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "186": {
+      "height": 11,
+      "weight": 339,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 2
+    },
+    "187": {
+      "height": 4,
+      "weight": 5,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "188": {
+      "height": 6,
+      "weight": 10,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 2
+    },
+    "189": {
+      "height": 8,
+      "weight": 30,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 2
+    },
+    "190": {
+      "height": 8,
+      "weight": 115,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 2
+    },
+    "191": {
+      "height": 3,
+      "weight": 18,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "192": {
+      "height": 8,
+      "weight": 85,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 2
+    },
+    "193": {
+      "height": 12,
+      "weight": 380,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "194": {
+      "height": 4,
+      "weight": 85,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "195": {
+      "height": 14,
+      "weight": 750,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 2
+    },
+    "196": {
+      "height": 9,
+      "weight": 265,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 2
+    },
+    "197": {
+      "height": 10,
+      "weight": 270,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 2
+    },
+    "198": {
+      "height": 5,
+      "weight": 21,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 2
+    },
+    "199": {
+      "height": 20,
+      "weight": 795,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 2
+    },
+    "200": {
+      "height": 7,
+      "weight": 10,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 2
+    },
+    "201": {
+      "height": 5,
+      "weight": 50,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 2
+    },
+    "202": {
+      "height": 13,
+      "weight": 285,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 2
+    },
+    "203": {
+      "height": 15,
+      "weight": 415,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "204": {
+      "height": 6,
+      "weight": 72,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 2
+    },
+    "205": {
+      "height": 12,
+      "weight": 1258,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 2
+    },
+    "206": {
+      "height": 15,
+      "weight": 140,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "207": {
+      "height": 11,
+      "weight": 648,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 2
+    },
+    "208": {
+      "height": 92,
+      "weight": 4000,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 2
+    },
+    "209": {
+      "height": 6,
+      "weight": 78,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "210": {
+      "height": 14,
+      "weight": 487,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 2
+    },
+    "211": {
+      "height": 5,
+      "weight": 39,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 2
+    },
+    "212": {
+      "height": 18,
+      "weight": 1180,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "213": {
+      "height": 6,
+      "weight": 205,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "214": {
+      "height": 15,
+      "weight": 540,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "215": {
+      "height": 9,
+      "weight": 280,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 2
+    },
+    "216": {
+      "height": 6,
+      "weight": 88,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "217": {
+      "height": 18,
+      "weight": 1258,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "218": {
+      "height": 7,
+      "weight": 350,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "219": {
+      "height": 8,
+      "weight": 550,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "220": {
+      "height": 4,
+      "weight": 65,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "221": {
+      "height": 11,
+      "weight": 558,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "222": {
+      "height": 6,
+      "weight": 50,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "223": {
+      "height": 6,
+      "weight": 120,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 2
+    },
+    "224": {
+      "height": 9,
+      "weight": 285,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "225": {
+      "height": 9,
+      "weight": 160,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "226": {
+      "height": 21,
+      "weight": 2200,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 2
+    },
+    "227": {
+      "height": 17,
+      "weight": 505,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 2
+    },
+    "228": {
+      "height": 6,
+      "weight": 108,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 2
+    },
+    "229": {
+      "height": 14,
+      "weight": 350,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 2
+    },
+    "230": {
+      "height": 18,
+      "weight": 1520,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 2
+    },
+    "231": {
+      "height": 5,
+      "weight": 335,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "232": {
+      "height": 11,
+      "weight": 1200,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 2
+    },
+    "233": {
+      "height": 6,
+      "weight": 325,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 2
+    },
+    "234": {
+      "height": 14,
+      "weight": 712,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "235": {
+      "height": 12,
+      "weight": 580,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 2
+    },
+    "236": {
+      "height": 7,
+      "weight": 210,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 2
+    },
+    "237": {
+      "height": 14,
+      "weight": 480,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 2
+    },
+    "238": {
+      "height": 4,
+      "weight": 60,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "239": {
+      "height": 6,
+      "weight": 235,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "240": {
+      "height": 7,
+      "weight": 214,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "241": {
+      "height": 12,
+      "weight": 755,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 2
+    },
+    "242": {
+      "height": 15,
+      "weight": 468,
+      "color": "Rosa",
+      "stage": 2,
+      "generation": 2
+    },
+    "243": {
+      "height": 19,
+      "weight": 1780,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 2
+    },
+    "244": {
+      "height": 21,
+      "weight": 1980,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 2
+    },
+    "245": {
+      "height": 20,
+      "weight": 1870,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 2
+    },
+    "246": {
+      "height": 6,
+      "weight": 720,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 2
+    },
+    "247": {
+      "height": 12,
+      "weight": 1520,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 2
+    },
+    "248": {
+      "height": 20,
+      "weight": 2020,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 2
+    },
+    "249": {
+      "height": 52,
+      "weight": 2160,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 2
+    },
+    "250": {
+      "height": 38,
+      "weight": 1990,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 2
+    },
+    "251": {
+      "height": 6,
+      "weight": 50,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 2
+    },
+    "252": {
+      "height": 5,
+      "weight": 50,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "253": {
+      "height": 9,
+      "weight": 216,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "254": {
+      "height": 17,
+      "weight": 522,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 3
+    },
+    "255": {
+      "height": 4,
+      "weight": 25,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "256": {
+      "height": 9,
+      "weight": 195,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 3
+    },
+    "257": {
+      "height": 19,
+      "weight": 520,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 3
+    },
+    "258": {
+      "height": 4,
+      "weight": 76,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "259": {
+      "height": 7,
+      "weight": 280,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "260": {
+      "height": 15,
+      "weight": 819,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 3
+    },
+    "261": {
+      "height": 5,
+      "weight": 136,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "262": {
+      "height": 10,
+      "weight": 370,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 3
+    },
+    "263": {
+      "height": 4,
+      "weight": 175,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "264": {
+      "height": 5,
+      "weight": 325,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 3
+    },
+    "265": {
+      "height": 3,
+      "weight": 36,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "266": {
+      "height": 6,
+      "weight": 100,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 3
+    },
+    "267": {
+      "height": 10,
+      "weight": 284,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 3
+    },
+    "268": {
+      "height": 7,
+      "weight": 115,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 3
+    },
+    "269": {
+      "height": 12,
+      "weight": 316,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 3
+    },
+    "270": {
+      "height": 5,
+      "weight": 26,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "271": {
+      "height": 12,
+      "weight": 325,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "272": {
+      "height": 15,
+      "weight": 550,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 3
+    },
+    "273": {
+      "height": 5,
+      "weight": 40,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "274": {
+      "height": 10,
+      "weight": 280,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 3
+    },
+    "275": {
+      "height": 13,
+      "weight": 596,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 3
+    },
+    "276": {
+      "height": 3,
+      "weight": 23,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "277": {
+      "height": 7,
+      "weight": 198,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "278": {
+      "height": 6,
+      "weight": 95,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 3
+    },
+    "279": {
+      "height": 12,
+      "weight": 280,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 3
+    },
+    "280": {
+      "height": 4,
+      "weight": 66,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 3
+    },
+    "281": {
+      "height": 8,
+      "weight": 202,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 3
+    },
+    "282": {
+      "height": 16,
+      "weight": 484,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 3
+    },
+    "283": {
+      "height": 5,
+      "weight": 17,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "284": {
+      "height": 8,
+      "weight": 36,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "285": {
+      "height": 4,
+      "weight": 45,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "286": {
+      "height": 12,
+      "weight": 392,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "287": {
+      "height": 8,
+      "weight": 240,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "288": {
+      "height": 14,
+      "weight": 465,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 3
+    },
+    "289": {
+      "height": 20,
+      "weight": 1305,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 3
+    },
+    "290": {
+      "height": 5,
+      "weight": 55,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "291": {
+      "height": 8,
+      "weight": 120,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 3
+    },
+    "292": {
+      "height": 8,
+      "weight": 12,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 3
+    },
+    "293": {
+      "height": 6,
+      "weight": 163,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 3
+    },
+    "294": {
+      "height": 10,
+      "weight": 405,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "295": {
+      "height": 15,
+      "weight": 840,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 3
+    },
+    "296": {
+      "height": 10,
+      "weight": 864,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "297": {
+      "height": 23,
+      "weight": 2538,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 3
+    },
+    "298": {
+      "height": 2,
+      "weight": 20,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "299": {
+      "height": 10,
+      "weight": 970,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "300": {
+      "height": 6,
+      "weight": 110,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 3
+    },
+    "301": {
+      "height": 11,
+      "weight": 326,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 3
+    },
+    "302": {
+      "height": 5,
+      "weight": 110,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 3
+    },
+    "303": {
+      "height": 6,
+      "weight": 115,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 3
+    },
+    "304": {
+      "height": 4,
+      "weight": 600,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "305": {
+      "height": 9,
+      "weight": 1200,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 3
+    },
+    "306": {
+      "height": 21,
+      "weight": 3600,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 3
+    },
+    "307": {
+      "height": 6,
+      "weight": 112,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "308": {
+      "height": 13,
+      "weight": 315,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 3
+    },
+    "309": {
+      "height": 6,
+      "weight": 152,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "310": {
+      "height": 15,
+      "weight": 402,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 3
+    },
+    "311": {
+      "height": 4,
+      "weight": 42,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "312": {
+      "height": 4,
+      "weight": 42,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "313": {
+      "height": 7,
+      "weight": 177,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "314": {
+      "height": 6,
+      "weight": 177,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 3
+    },
+    "315": {
+      "height": 3,
+      "weight": 20,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "316": {
+      "height": 4,
+      "weight": 103,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "317": {
+      "height": 17,
+      "weight": 800,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 3
+    },
+    "318": {
+      "height": 8,
+      "weight": 208,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "319": {
+      "height": 18,
+      "weight": 888,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "320": {
+      "height": 20,
+      "weight": 1300,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "321": {
+      "height": 145,
+      "weight": 3980,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "322": {
+      "height": 7,
+      "weight": 240,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "323": {
+      "height": 19,
+      "weight": 2200,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 3
+    },
+    "324": {
+      "height": 5,
+      "weight": 804,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "325": {
+      "height": 7,
+      "weight": 306,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 3
+    },
+    "326": {
+      "height": 9,
+      "weight": 715,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 3
+    },
+    "327": {
+      "height": 11,
+      "weight": 50,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "328": {
+      "height": 7,
+      "weight": 150,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "329": {
+      "height": 11,
+      "weight": 153,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "330": {
+      "height": 20,
+      "weight": 820,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 3
+    },
+    "331": {
+      "height": 4,
+      "weight": 513,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "332": {
+      "height": 13,
+      "weight": 774,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "333": {
+      "height": 4,
+      "weight": 12,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "334": {
+      "height": 11,
+      "weight": 206,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "335": {
+      "height": 13,
+      "weight": 403,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 3
+    },
+    "336": {
+      "height": 27,
+      "weight": 525,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 3
+    },
+    "337": {
+      "height": 10,
+      "weight": 1680,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "338": {
+      "height": 12,
+      "weight": 1540,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "339": {
+      "height": 4,
+      "weight": 19,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "340": {
+      "height": 9,
+      "weight": 236,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "341": {
+      "height": 6,
+      "weight": 115,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "342": {
+      "height": 11,
+      "weight": 328,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 3
+    },
+    "343": {
+      "height": 5,
+      "weight": 215,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "344": {
+      "height": 15,
+      "weight": 1080,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 3
+    },
+    "345": {
+      "height": 10,
+      "weight": 238,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 3
+    },
+    "346": {
+      "height": 15,
+      "weight": 604,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 3
+    },
+    "347": {
+      "height": 7,
+      "weight": 125,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "348": {
+      "height": 15,
+      "weight": 682,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 3
+    },
+    "349": {
+      "height": 6,
+      "weight": 74,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "350": {
+      "height": 62,
+      "weight": 1620,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 3
+    },
+    "351": {
+      "height": 3,
+      "weight": 8,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "352": {
+      "height": 10,
+      "weight": 220,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "353": {
+      "height": 6,
+      "weight": 23,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 3
+    },
+    "354": {
+      "height": 11,
+      "weight": 125,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 3
+    },
+    "355": {
+      "height": 8,
+      "weight": 150,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 3
+    },
+    "356": {
+      "height": 16,
+      "weight": 306,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 3
+    },
+    "357": {
+      "height": 20,
+      "weight": 1000,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "358": {
+      "height": 6,
+      "weight": 10,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "359": {
+      "height": 12,
+      "weight": 470,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 3
+    },
+    "360": {
+      "height": 6,
+      "weight": 140,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "361": {
+      "height": 7,
+      "weight": 168,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "362": {
+      "height": 15,
+      "weight": 2565,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 3
+    },
+    "363": {
+      "height": 8,
+      "weight": 395,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "364": {
+      "height": 11,
+      "weight": 876,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "365": {
+      "height": 14,
+      "weight": 1506,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 3
+    },
+    "366": {
+      "height": 4,
+      "weight": 525,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "367": {
+      "height": 17,
+      "weight": 270,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "368": {
+      "height": 18,
+      "weight": 226,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 3
+    },
+    "369": {
+      "height": 10,
+      "weight": 234,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "370": {
+      "height": 6,
+      "weight": 87,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 3
+    },
+    "371": {
+      "height": 6,
+      "weight": 421,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "372": {
+      "height": 11,
+      "weight": 1105,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 3
+    },
+    "373": {
+      "height": 15,
+      "weight": 1026,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 3
+    },
+    "374": {
+      "height": 6,
+      "weight": 952,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "375": {
+      "height": 12,
+      "weight": 2025,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 3
+    },
+    "376": {
+      "height": 16,
+      "weight": 5500,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 3
+    },
+    "377": {
+      "height": 17,
+      "weight": 2300,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 3
+    },
+    "378": {
+      "height": 18,
+      "weight": 1750,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "379": {
+      "height": 19,
+      "weight": 2050,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 3
+    },
+    "380": {
+      "height": 14,
+      "weight": 400,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "381": {
+      "height": 20,
+      "weight": 600,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "382": {
+      "height": 45,
+      "weight": 3520,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 3
+    },
+    "383": {
+      "height": 35,
+      "weight": 9500,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "384": {
+      "height": 70,
+      "weight": 2065,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 3
+    },
+    "385": {
+      "height": 3,
+      "weight": 11,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 3
+    },
+    "386": {
+      "height": 17,
+      "weight": 608,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 3
+    },
+    "387": {
+      "height": 4,
+      "weight": 102,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "388": {
+      "height": 11,
+      "weight": 970,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 4
+    },
+    "389": {
+      "height": 22,
+      "weight": 3100,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 4
+    },
+    "390": {
+      "height": 5,
+      "weight": 62,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "391": {
+      "height": 9,
+      "weight": 220,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "392": {
+      "height": 12,
+      "weight": 550,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 4
+    },
+    "393": {
+      "height": 4,
+      "weight": 52,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "394": {
+      "height": 8,
+      "weight": 230,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "395": {
+      "height": 17,
+      "weight": 845,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 4
+    },
+    "396": {
+      "height": 3,
+      "weight": 20,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "397": {
+      "height": 6,
+      "weight": 155,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "398": {
+      "height": 12,
+      "weight": 249,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 4
+    },
+    "399": {
+      "height": 5,
+      "weight": 200,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "400": {
+      "height": 10,
+      "weight": 315,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "401": {
+      "height": 3,
+      "weight": 22,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 4
+    },
+    "402": {
+      "height": 10,
+      "weight": 255,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 4
+    },
+    "403": {
+      "height": 5,
+      "weight": 95,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "404": {
+      "height": 9,
+      "weight": 305,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "405": {
+      "height": 14,
+      "weight": 420,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 4
+    },
+    "406": {
+      "height": 2,
+      "weight": 12,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "407": {
+      "height": 9,
+      "weight": 145,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 4
+    },
+    "408": {
+      "height": 9,
+      "weight": 315,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "409": {
+      "height": 16,
+      "weight": 1025,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "410": {
+      "height": 5,
+      "weight": 570,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 4
+    },
+    "411": {
+      "height": 13,
+      "weight": 1495,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 4
+    },
+    "412": {
+      "height": 2,
+      "weight": 34,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "413": {
+      "height": 5,
+      "weight": 65,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 4
+    },
+    "414": {
+      "height": 9,
+      "weight": 233,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 4
+    },
+    "415": {
+      "height": 3,
+      "weight": 55,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 4
+    },
+    "416": {
+      "height": 12,
+      "weight": 385,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 4
+    },
+    "417": {
+      "height": 4,
+      "weight": 39,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 4
+    },
+    "418": {
+      "height": 7,
+      "weight": 295,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "419": {
+      "height": 11,
+      "weight": 335,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "420": {
+      "height": 4,
+      "weight": 33,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 4
+    },
+    "421": {
+      "height": 5,
+      "weight": 93,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "422": {
+      "height": 3,
+      "weight": 63,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "423": {
+      "height": 9,
+      "weight": 299,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "424": {
+      "height": 12,
+      "weight": 203,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "425": {
+      "height": 4,
+      "weight": 12,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "426": {
+      "height": 12,
+      "weight": 150,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "427": {
+      "height": 4,
+      "weight": 55,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "428": {
+      "height": 12,
+      "weight": 333,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "429": {
+      "height": 9,
+      "weight": 44,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "430": {
+      "height": 9,
+      "weight": 273,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 4
+    },
+    "431": {
+      "height": 5,
+      "weight": 39,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 4
+    },
+    "432": {
+      "height": 10,
+      "weight": 438,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 4
+    },
+    "433": {
+      "height": 2,
+      "weight": 6,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 4
+    },
+    "434": {
+      "height": 4,
+      "weight": 192,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "435": {
+      "height": 10,
+      "weight": 380,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "436": {
+      "height": 5,
+      "weight": 605,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "437": {
+      "height": 13,
+      "weight": 1870,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 4
+    },
+    "438": {
+      "height": 5,
+      "weight": 150,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "439": {
+      "height": 6,
+      "weight": 130,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 4
+    },
+    "440": {
+      "height": 6,
+      "weight": 244,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 4
+    },
+    "441": {
+      "height": 5,
+      "weight": 19,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 4
+    },
+    "442": {
+      "height": 10,
+      "weight": 1080,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "443": {
+      "height": 7,
+      "weight": 205,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "444": {
+      "height": 14,
+      "weight": 560,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "445": {
+      "height": 19,
+      "weight": 950,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 4
+    },
+    "446": {
+      "height": 6,
+      "weight": 1050,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 4
+    },
+    "447": {
+      "height": 7,
+      "weight": 202,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "448": {
+      "height": 12,
+      "weight": 540,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "449": {
+      "height": 8,
+      "weight": 495,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "450": {
+      "height": 20,
+      "weight": 3000,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 4
+    },
+    "451": {
+      "height": 8,
+      "weight": 120,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "452": {
+      "height": 13,
+      "weight": 615,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "453": {
+      "height": 7,
+      "weight": 230,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "454": {
+      "height": 13,
+      "weight": 444,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "455": {
+      "height": 14,
+      "weight": 270,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "456": {
+      "height": 4,
+      "weight": 70,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "457": {
+      "height": 12,
+      "weight": 240,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "458": {
+      "height": 10,
+      "weight": 650,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "459": {
+      "height": 10,
+      "weight": 505,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 4
+    },
+    "460": {
+      "height": 22,
+      "weight": 1355,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 4
+    },
+    "461": {
+      "height": 11,
+      "weight": 340,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 4
+    },
+    "462": {
+      "height": 12,
+      "weight": 1800,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 4
+    },
+    "463": {
+      "height": 17,
+      "weight": 1400,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 4
+    },
+    "464": {
+      "height": 24,
+      "weight": 2828,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 4
+    },
+    "465": {
+      "height": 20,
+      "weight": 1286,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "466": {
+      "height": 18,
+      "weight": 1386,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 4
+    },
+    "467": {
+      "height": 16,
+      "weight": 680,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 4
+    },
+    "468": {
+      "height": 15,
+      "weight": 380,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 4
+    },
+    "469": {
+      "height": 19,
+      "weight": 515,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 4
+    },
+    "470": {
+      "height": 10,
+      "weight": 255,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 4
+    },
+    "471": {
+      "height": 8,
+      "weight": 259,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 4
+    },
+    "472": {
+      "height": 20,
+      "weight": 425,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 4
+    },
+    "473": {
+      "height": 25,
+      "weight": 2910,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 4
+    },
+    "474": {
+      "height": 9,
+      "weight": 340,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 4
+    },
+    "475": {
+      "height": 16,
+      "weight": 520,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 4
+    },
+    "476": {
+      "height": 14,
+      "weight": 3400,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 4
+    },
+    "477": {
+      "height": 22,
+      "weight": 1066,
+      "color": "Negro",
+      "stage": 2,
+      "generation": 4
+    },
+    "478": {
+      "height": 13,
+      "weight": 266,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 4
+    },
+    "479": {
+      "height": 3,
+      "weight": 3,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 4
+    },
+    "480": {
+      "height": 3,
+      "weight": 3,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 4
+    },
+    "481": {
+      "height": 3,
+      "weight": 3,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 4
+    },
+    "482": {
+      "height": 3,
+      "weight": 3,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "483": {
+      "height": 54,
+      "weight": 6830,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 4
+    },
+    "484": {
+      "height": 42,
+      "weight": 3360,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 4
+    },
+    "485": {
+      "height": 17,
+      "weight": 4300,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 4
+    },
+    "486": {
+      "height": 37,
+      "weight": 4200,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 4
+    },
+    "487": {
+      "height": 45,
+      "weight": 7500,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 4
+    },
+    "488": {
+      "height": 15,
+      "weight": 856,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 4
+    },
+    "489": {
+      "height": 4,
+      "weight": 31,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "490": {
+      "height": 3,
+      "weight": 14,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 4
+    },
+    "491": {
+      "height": 15,
+      "weight": 505,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 4
+    },
+    "492": {
+      "height": 2,
+      "weight": 21,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 4
+    },
+    "493": {
+      "height": 32,
+      "weight": 3200,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 4
+    },
+    "494": {
+      "height": 4,
+      "weight": 40,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "495": {
+      "height": 6,
+      "weight": 81,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "496": {
+      "height": 8,
+      "weight": 160,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "497": {
+      "height": 33,
+      "weight": 630,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 5
+    },
+    "498": {
+      "height": 5,
+      "weight": 99,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "499": {
+      "height": 10,
+      "weight": 555,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "500": {
+      "height": 16,
+      "weight": 1500,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 5
+    },
+    "501": {
+      "height": 5,
+      "weight": 59,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "502": {
+      "height": 8,
+      "weight": 245,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "503": {
+      "height": 15,
+      "weight": 946,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 5
+    },
+    "504": {
+      "height": 5,
+      "weight": 116,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "505": {
+      "height": 11,
+      "weight": 270,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 5
+    },
+    "506": {
+      "height": 4,
+      "weight": 41,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "507": {
+      "height": 9,
+      "weight": 147,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "508": {
+      "height": 12,
+      "weight": 610,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 5
+    },
+    "509": {
+      "height": 4,
+      "weight": 101,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 5
+    },
+    "510": {
+      "height": 11,
+      "weight": 375,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 5
+    },
+    "511": {
+      "height": 6,
+      "weight": 105,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "512": {
+      "height": 11,
+      "weight": 305,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "513": {
+      "height": 6,
+      "weight": 110,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "514": {
+      "height": 10,
+      "weight": 280,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "515": {
+      "height": 6,
+      "weight": 135,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "516": {
+      "height": 10,
+      "weight": 290,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "517": {
+      "height": 6,
+      "weight": 233,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 5
+    },
+    "518": {
+      "height": 11,
+      "weight": 605,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 5
+    },
+    "519": {
+      "height": 3,
+      "weight": 21,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "520": {
+      "height": 6,
+      "weight": 150,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "521": {
+      "height": 12,
+      "weight": 290,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 5
+    },
+    "522": {
+      "height": 8,
+      "weight": 298,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 5
+    },
+    "523": {
+      "height": 16,
+      "weight": 795,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 5
+    },
+    "524": {
+      "height": 4,
+      "weight": 180,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "525": {
+      "height": 9,
+      "weight": 1020,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "526": {
+      "height": 17,
+      "weight": 2600,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 5
+    },
+    "527": {
+      "height": 4,
+      "weight": 21,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "528": {
+      "height": 9,
+      "weight": 105,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "529": {
+      "height": 3,
+      "weight": 85,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "530": {
+      "height": 7,
+      "weight": 404,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "531": {
+      "height": 11,
+      "weight": 310,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 5
+    },
+    "532": {
+      "height": 6,
+      "weight": 125,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "533": {
+      "height": 12,
+      "weight": 400,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "534": {
+      "height": 14,
+      "weight": 870,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 5
+    },
+    "535": {
+      "height": 5,
+      "weight": 45,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "536": {
+      "height": 8,
+      "weight": 170,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "537": {
+      "height": 15,
+      "weight": 620,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 5
+    },
+    "538": {
+      "height": 13,
+      "weight": 555,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "539": {
+      "height": 14,
+      "weight": 510,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "540": {
+      "height": 3,
+      "weight": 25,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "541": {
+      "height": 5,
+      "weight": 73,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "542": {
+      "height": 12,
+      "weight": 205,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 5
+    },
+    "543": {
+      "height": 4,
+      "weight": 53,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "544": {
+      "height": 12,
+      "weight": 585,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "545": {
+      "height": 25,
+      "weight": 2005,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 5
+    },
+    "546": {
+      "height": 3,
+      "weight": 6,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "547": {
+      "height": 7,
+      "weight": 66,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "548": {
+      "height": 5,
+      "weight": 66,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "549": {
+      "height": 11,
+      "weight": 163,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "550": {
+      "height": 10,
+      "weight": 180,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "551": {
+      "height": 7,
+      "weight": 152,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "552": {
+      "height": 10,
+      "weight": 334,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 5
+    },
+    "553": {
+      "height": 15,
+      "weight": 963,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 5
+    },
+    "554": {
+      "height": 6,
+      "weight": 375,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "555": {
+      "height": 13,
+      "weight": 929,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "556": {
+      "height": 10,
+      "weight": 280,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "557": {
+      "height": 3,
+      "weight": 145,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "558": {
+      "height": 14,
+      "weight": 2000,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "559": {
+      "height": 6,
+      "weight": 118,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "560": {
+      "height": 11,
+      "weight": 300,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "561": {
+      "height": 14,
+      "weight": 140,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 5
+    },
+    "562": {
+      "height": 5,
+      "weight": 15,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 5
+    },
+    "563": {
+      "height": 17,
+      "weight": 765,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 5
+    },
+    "564": {
+      "height": 7,
+      "weight": 165,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "565": {
+      "height": 12,
+      "weight": 810,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "566": {
+      "height": 5,
+      "weight": 95,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "567": {
+      "height": 14,
+      "weight": 320,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 5
+    },
+    "568": {
+      "height": 6,
+      "weight": 310,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "569": {
+      "height": 19,
+      "weight": 1073,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "570": {
+      "height": 7,
+      "weight": 125,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "571": {
+      "height": 16,
+      "weight": 811,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "572": {
+      "height": 4,
+      "weight": 58,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "573": {
+      "height": 5,
+      "weight": 75,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "574": {
+      "height": 4,
+      "weight": 58,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 5
+    },
+    "575": {
+      "height": 7,
+      "weight": 180,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 5
+    },
+    "576": {
+      "height": 15,
+      "weight": 440,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 5
+    },
+    "577": {
+      "height": 3,
+      "weight": 10,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "578": {
+      "height": 6,
+      "weight": 80,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "579": {
+      "height": 10,
+      "weight": 201,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 5
+    },
+    "580": {
+      "height": 5,
+      "weight": 55,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "581": {
+      "height": 13,
+      "weight": 242,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "582": {
+      "height": 4,
+      "weight": 57,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "583": {
+      "height": 11,
+      "weight": 410,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "584": {
+      "height": 13,
+      "weight": 575,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 5
+    },
+    "585": {
+      "height": 6,
+      "weight": 195,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 5
+    },
+    "586": {
+      "height": 19,
+      "weight": 925,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 5
+    },
+    "587": {
+      "height": 4,
+      "weight": 50,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "588": {
+      "height": 5,
+      "weight": 59,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "589": {
+      "height": 10,
+      "weight": 330,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "590": {
+      "height": 2,
+      "weight": 10,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "591": {
+      "height": 6,
+      "weight": 105,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "592": {
+      "height": 12,
+      "weight": 330,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "593": {
+      "height": 22,
+      "weight": 1350,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "594": {
+      "height": 12,
+      "weight": 316,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 5
+    },
+    "595": {
+      "height": 1,
+      "weight": 6,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "596": {
+      "height": 8,
+      "weight": 143,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 5
+    },
+    "597": {
+      "height": 6,
+      "weight": 188,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "598": {
+      "height": 10,
+      "weight": 1100,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "599": {
+      "height": 3,
+      "weight": 210,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "600": {
+      "height": 6,
+      "weight": 510,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 5
+    },
+    "601": {
+      "height": 6,
+      "weight": 810,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 5
+    },
+    "602": {
+      "height": 2,
+      "weight": 3,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "603": {
+      "height": 12,
+      "weight": 220,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "604": {
+      "height": 21,
+      "weight": 805,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 5
+    },
+    "605": {
+      "height": 5,
+      "weight": 90,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "606": {
+      "height": 10,
+      "weight": 345,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 5
+    },
+    "607": {
+      "height": 3,
+      "weight": 31,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "608": {
+      "height": 6,
+      "weight": 130,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 5
+    },
+    "609": {
+      "height": 10,
+      "weight": 343,
+      "color": "Negro",
+      "stage": 2,
+      "generation": 5
+    },
+    "610": {
+      "height": 6,
+      "weight": 180,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "611": {
+      "height": 10,
+      "weight": 360,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "612": {
+      "height": 18,
+      "weight": 1055,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 5
+    },
+    "613": {
+      "height": 5,
+      "weight": 85,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "614": {
+      "height": 26,
+      "weight": 2600,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "615": {
+      "height": 11,
+      "weight": 1480,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "616": {
+      "height": 4,
+      "weight": 77,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "617": {
+      "height": 8,
+      "weight": 253,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "618": {
+      "height": 7,
+      "weight": 110,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "619": {
+      "height": 9,
+      "weight": 200,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "620": {
+      "height": 14,
+      "weight": 355,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 5
+    },
+    "621": {
+      "height": 16,
+      "weight": 1390,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "622": {
+      "height": 10,
+      "weight": 920,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "623": {
+      "height": 28,
+      "weight": 3300,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 5
+    },
+    "624": {
+      "height": 5,
+      "weight": 102,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "625": {
+      "height": 16,
+      "weight": 700,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "626": {
+      "height": 16,
+      "weight": 946,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "627": {
+      "height": 5,
+      "weight": 105,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "628": {
+      "height": 15,
+      "weight": 410,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 5
+    },
+    "629": {
+      "height": 5,
+      "weight": 90,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "630": {
+      "height": 12,
+      "weight": 395,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 5
+    },
+    "631": {
+      "height": 14,
+      "weight": 580,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 5
+    },
+    "632": {
+      "height": 3,
+      "weight": 330,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "633": {
+      "height": 8,
+      "weight": 173,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "634": {
+      "height": 14,
+      "weight": 500,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 5
+    },
+    "635": {
+      "height": 18,
+      "weight": 1600,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 5
+    },
+    "636": {
+      "height": 11,
+      "weight": 288,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "637": {
+      "height": 16,
+      "weight": 460,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 5
+    },
+    "638": {
+      "height": 21,
+      "weight": 2500,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "639": {
+      "height": 19,
+      "weight": 2600,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "640": {
+      "height": 20,
+      "weight": 2000,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "641": {
+      "height": 15,
+      "weight": 630,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 5
+    },
+    "642": {
+      "height": 15,
+      "weight": 610,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 5
+    },
+    "643": {
+      "height": 32,
+      "weight": 3300,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "644": {
+      "height": 29,
+      "weight": 3450,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 5
+    },
+    "645": {
+      "height": 15,
+      "weight": 680,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 5
+    },
+    "646": {
+      "height": 30,
+      "weight": 3250,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 5
+    },
+    "647": {
+      "height": 14,
+      "weight": 485,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 5
+    },
+    "648": {
+      "height": 6,
+      "weight": 65,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 5
+    },
+    "649": {
+      "height": 15,
+      "weight": 825,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 5
+    },
+    "650": {
+      "height": 4,
+      "weight": 90,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 6
+    },
+    "651": {
+      "height": 7,
+      "weight": 290,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 6
+    },
+    "652": {
+      "height": 16,
+      "weight": 900,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 6
+    },
+    "653": {
+      "height": 4,
+      "weight": 94,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 6
+    },
+    "654": {
+      "height": 10,
+      "weight": 145,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 6
+    },
+    "655": {
+      "height": 15,
+      "weight": 390,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 6
+    },
+    "656": {
+      "height": 3,
+      "weight": 70,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "657": {
+      "height": 6,
+      "weight": 109,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "658": {
+      "height": 15,
+      "weight": 400,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 6
+    },
+    "659": {
+      "height": 4,
+      "weight": 50,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "660": {
+      "height": 10,
+      "weight": 424,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "661": {
+      "height": 3,
+      "weight": 17,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 6
+    },
+    "662": {
+      "height": 7,
+      "weight": 160,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 6
+    },
+    "663": {
+      "height": 12,
+      "weight": 245,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 6
+    },
+    "664": {
+      "height": 3,
+      "weight": 25,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 6
+    },
+    "665": {
+      "height": 3,
+      "weight": 84,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 6
+    },
+    "666": {
+      "height": 12,
+      "weight": 170,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 6
+    },
+    "667": {
+      "height": 6,
+      "weight": 135,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "668": {
+      "height": 15,
+      "weight": 815,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "669": {
+      "height": 1,
+      "weight": 1,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 6
+    },
+    "670": {
+      "height": 2,
+      "weight": 9,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 6
+    },
+    "671": {
+      "height": 11,
+      "weight": 100,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 6
+    },
+    "672": {
+      "height": 9,
+      "weight": 310,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "673": {
+      "height": 17,
+      "weight": 910,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "674": {
+      "height": 6,
+      "weight": 80,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 6
+    },
+    "675": {
+      "height": 21,
+      "weight": 1360,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 6
+    },
+    "676": {
+      "height": 12,
+      "weight": 280,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 6
+    },
+    "677": {
+      "height": 3,
+      "weight": 35,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 6
+    },
+    "678": {
+      "height": 6,
+      "weight": 85,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "679": {
+      "height": 8,
+      "weight": 20,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "680": {
+      "height": 8,
+      "weight": 45,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "681": {
+      "height": 17,
+      "weight": 530,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 6
+    },
+    "682": {
+      "height": 2,
+      "weight": 5,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 6
+    },
+    "683": {
+      "height": 8,
+      "weight": 155,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 6
+    },
+    "684": {
+      "height": 4,
+      "weight": 35,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 6
+    },
+    "685": {
+      "height": 8,
+      "weight": 50,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 6
+    },
+    "686": {
+      "height": 4,
+      "weight": 35,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "687": {
+      "height": 15,
+      "weight": 470,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "688": {
+      "height": 5,
+      "weight": 310,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "689": {
+      "height": 13,
+      "weight": 960,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "690": {
+      "height": 5,
+      "weight": 73,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "691": {
+      "height": 18,
+      "weight": 815,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "692": {
+      "height": 5,
+      "weight": 83,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "693": {
+      "height": 13,
+      "weight": 353,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "694": {
+      "height": 5,
+      "weight": 60,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 6
+    },
+    "695": {
+      "height": 10,
+      "weight": 210,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 6
+    },
+    "696": {
+      "height": 8,
+      "weight": 260,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "697": {
+      "height": 25,
+      "weight": 2700,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 6
+    },
+    "698": {
+      "height": 13,
+      "weight": 252,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "699": {
+      "height": 27,
+      "weight": 2250,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "700": {
+      "height": 10,
+      "weight": 235,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 6
+    },
+    "701": {
+      "height": 8,
+      "weight": 215,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 6
+    },
+    "702": {
+      "height": 2,
+      "weight": 22,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 6
+    },
+    "703": {
+      "height": 3,
+      "weight": 57,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 6
+    },
+    "704": {
+      "height": 3,
+      "weight": 28,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 6
+    },
+    "705": {
+      "height": 8,
+      "weight": 175,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 6
+    },
+    "706": {
+      "height": 20,
+      "weight": 1505,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 6
+    },
+    "707": {
+      "height": 2,
+      "weight": 30,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 6
+    },
+    "708": {
+      "height": 4,
+      "weight": 70,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "709": {
+      "height": 15,
+      "weight": 710,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "710": {
+      "height": 4,
+      "weight": 50,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "711": {
+      "height": 9,
+      "weight": 125,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 6
+    },
+    "712": {
+      "height": 10,
+      "weight": 995,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "713": {
+      "height": 20,
+      "weight": 5050,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 6
+    },
+    "714": {
+      "height": 5,
+      "weight": 80,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 6
+    },
+    "715": {
+      "height": 15,
+      "weight": 850,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 6
+    },
+    "716": {
+      "height": 30,
+      "weight": 2150,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 6
+    },
+    "717": {
+      "height": 58,
+      "weight": 2030,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 6
+    },
+    "718": {
+      "height": 50,
+      "weight": 3050,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 6
+    },
+    "719": {
+      "height": 7,
+      "weight": 88,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 6
+    },
+    "720": {
+      "height": 5,
+      "weight": 90,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 6
+    },
+    "721": {
+      "height": 17,
+      "weight": 1950,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 6
+    },
+    "722": {
+      "height": 3,
+      "weight": 15,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "723": {
+      "height": 7,
+      "weight": 160,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 7
+    },
+    "724": {
+      "height": 16,
+      "weight": 366,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 7
+    },
+    "725": {
+      "height": 4,
+      "weight": 43,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 7
+    },
+    "726": {
+      "height": 7,
+      "weight": 250,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 7
+    },
+    "727": {
+      "height": 18,
+      "weight": 830,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 7
+    },
+    "728": {
+      "height": 4,
+      "weight": 75,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 7
+    },
+    "729": {
+      "height": 6,
+      "weight": 175,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 7
+    },
+    "730": {
+      "height": 18,
+      "weight": 440,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 7
+    },
+    "731": {
+      "height": 3,
+      "weight": 12,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "732": {
+      "height": 6,
+      "weight": 148,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 7
+    },
+    "733": {
+      "height": 11,
+      "weight": 260,
+      "color": "Negro",
+      "stage": 2,
+      "generation": 7
+    },
+    "734": {
+      "height": 4,
+      "weight": 60,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "735": {
+      "height": 7,
+      "weight": 142,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 7
+    },
+    "736": {
+      "height": 4,
+      "weight": 44,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "737": {
+      "height": 5,
+      "weight": 105,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 7
+    },
+    "738": {
+      "height": 15,
+      "weight": 450,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 7
+    },
+    "739": {
+      "height": 6,
+      "weight": 70,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 7
+    },
+    "740": {
+      "height": 17,
+      "weight": 1800,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 7
+    },
+    "741": {
+      "height": 6,
+      "weight": 34,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 7
+    },
+    "742": {
+      "height": 1,
+      "weight": 2,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 7
+    },
+    "743": {
+      "height": 2,
+      "weight": 5,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 7
+    },
+    "744": {
+      "height": 5,
+      "weight": 92,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "745": {
+      "height": 8,
+      "weight": 250,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 7
+    },
+    "746": {
+      "height": 2,
+      "weight": 3,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 7
+    },
+    "747": {
+      "height": 4,
+      "weight": 80,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 7
+    },
+    "748": {
+      "height": 7,
+      "weight": 145,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 7
+    },
+    "749": {
+      "height": 10,
+      "weight": 1100,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "750": {
+      "height": 25,
+      "weight": 9200,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 7
+    },
+    "751": {
+      "height": 3,
+      "weight": 40,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 7
+    },
+    "752": {
+      "height": 18,
+      "weight": 820,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 7
+    },
+    "753": {
+      "height": 3,
+      "weight": 15,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 7
+    },
+    "754": {
+      "height": 9,
+      "weight": 185,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 7
+    },
+    "755": {
+      "height": 2,
+      "weight": 15,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 7
+    },
+    "756": {
+      "height": 10,
+      "weight": 115,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 7
+    },
+    "757": {
+      "height": 6,
+      "weight": 48,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "758": {
+      "height": 12,
+      "weight": 222,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 7
+    },
+    "759": {
+      "height": 5,
+      "weight": 68,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 7
+    },
+    "760": {
+      "height": 21,
+      "weight": 1350,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 7
+    },
+    "761": {
+      "height": 3,
+      "weight": 32,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 7
+    },
+    "762": {
+      "height": 7,
+      "weight": 82,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 7
+    },
+    "763": {
+      "height": 12,
+      "weight": 214,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 7
+    },
+    "764": {
+      "height": 1,
+      "weight": 3,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 7
+    },
+    "765": {
+      "height": 15,
+      "weight": 760,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "766": {
+      "height": 20,
+      "weight": 828,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "767": {
+      "height": 5,
+      "weight": 120,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "768": {
+      "height": 20,
+      "weight": 1080,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 7
+    },
+    "769": {
+      "height": 5,
+      "weight": 700,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "770": {
+      "height": 13,
+      "weight": 2500,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 7
+    },
+    "771": {
+      "height": 3,
+      "weight": 12,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "772": {
+      "height": 19,
+      "weight": 1205,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "773": {
+      "height": 23,
+      "weight": 1005,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 7
+    },
+    "774": {
+      "height": 3,
+      "weight": 400,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 7
+    },
+    "775": {
+      "height": 4,
+      "weight": 199,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 7
+    },
+    "776": {
+      "height": 20,
+      "weight": 2120,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 7
+    },
+    "777": {
+      "height": 3,
+      "weight": 33,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "778": {
+      "height": 2,
+      "weight": 7,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 7
+    },
+    "779": {
+      "height": 9,
+      "weight": 190,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 7
+    },
+    "780": {
+      "height": 30,
+      "weight": 1850,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "781": {
+      "height": 39,
+      "weight": 2100,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 7
+    },
+    "782": {
+      "height": 6,
+      "weight": 297,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "783": {
+      "height": 12,
+      "weight": 470,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 7
+    },
+    "784": {
+      "height": 16,
+      "weight": 782,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 7
+    },
+    "785": {
+      "height": 18,
+      "weight": 205,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 7
+    },
+    "786": {
+      "height": 12,
+      "weight": 186,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 7
+    },
+    "787": {
+      "height": 19,
+      "weight": 455,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 7
+    },
+    "788": {
+      "height": 13,
+      "weight": 212,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 7
+    },
+    "789": {
+      "height": 2,
+      "weight": 1,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 7
+    },
+    "790": {
+      "height": 1,
+      "weight": 9999,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 7
+    },
+    "791": {
+      "height": 34,
+      "weight": 2300,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 7
+    },
+    "792": {
+      "height": 40,
+      "weight": 1200,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 7
+    },
+    "793": {
+      "height": 12,
+      "weight": 555,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "794": {
+      "height": 24,
+      "weight": 3336,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 7
+    },
+    "795": {
+      "height": 18,
+      "weight": 250,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "796": {
+      "height": 38,
+      "weight": 1000,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "797": {
+      "height": 92,
+      "weight": 9999,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 7
+    },
+    "798": {
+      "height": 3,
+      "weight": 1,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "799": {
+      "height": 55,
+      "weight": 8880,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "800": {
+      "height": 24,
+      "weight": 2300,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 7
+    },
+    "801": {
+      "height": 10,
+      "weight": 805,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "802": {
+      "height": 7,
+      "weight": 222,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "803": {
+      "height": 6,
+      "weight": 18,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 7
+    },
+    "804": {
+      "height": 36,
+      "weight": 1500,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 7
+    },
+    "805": {
+      "height": 55,
+      "weight": 8200,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "806": {
+      "height": 18,
+      "weight": 130,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 7
+    },
+    "807": {
+      "height": 15,
+      "weight": 445,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 7
+    },
+    "808": {
+      "height": 2,
+      "weight": 80,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 7
+    },
+    "809": {
+      "height": 25,
+      "weight": 8000,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 7
+    },
+    "810": {
+      "height": 3,
+      "weight": 50,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "811": {
+      "height": 7,
+      "weight": 140,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "812": {
+      "height": 21,
+      "weight": 900,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 8
+    },
+    "813": {
+      "height": 3,
+      "weight": 45,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "814": {
+      "height": 6,
+      "weight": 90,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 8
+    },
+    "815": {
+      "height": 14,
+      "weight": 330,
+      "color": "Blanco",
+      "stage": 2,
+      "generation": 8
+    },
+    "816": {
+      "height": 3,
+      "weight": 40,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "817": {
+      "height": 7,
+      "weight": 115,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 8
+    },
+    "818": {
+      "height": 19,
+      "weight": 452,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 8
+    },
+    "819": {
+      "height": 3,
+      "weight": 25,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 8
+    },
+    "820": {
+      "height": 6,
+      "weight": 60,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 8
+    },
+    "821": {
+      "height": 2,
+      "weight": 18,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "822": {
+      "height": 8,
+      "weight": 160,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 8
+    },
+    "823": {
+      "height": 22,
+      "weight": 750,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 8
+    },
+    "824": {
+      "height": 4,
+      "weight": 80,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "825": {
+      "height": 4,
+      "weight": 195,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 8
+    },
+    "826": {
+      "height": 4,
+      "weight": 408,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 8
+    },
+    "827": {
+      "height": 6,
+      "weight": 89,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 8
+    },
+    "828": {
+      "height": 12,
+      "weight": 199,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 8
+    },
+    "829": {
+      "height": 4,
+      "weight": 22,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "830": {
+      "height": 5,
+      "weight": 25,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "831": {
+      "height": 6,
+      "weight": 60,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "832": {
+      "height": 13,
+      "weight": 430,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 8
+    },
+    "833": {
+      "height": 3,
+      "weight": 85,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "834": {
+      "height": 10,
+      "weight": 1155,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "835": {
+      "height": 3,
+      "weight": 135,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 8
+    },
+    "836": {
+      "height": 10,
+      "weight": 340,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 8
+    },
+    "837": {
+      "height": 3,
+      "weight": 120,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 8
+    },
+    "838": {
+      "height": 11,
+      "weight": 780,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 8
+    },
+    "839": {
+      "height": 28,
+      "weight": 3105,
+      "color": "Negro",
+      "stage": 2,
+      "generation": 8
+    },
+    "840": {
+      "height": 2,
+      "weight": 5,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "841": {
+      "height": 3,
+      "weight": 10,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "842": {
+      "height": 4,
+      "weight": 130,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "843": {
+      "height": 22,
+      "weight": 76,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "844": {
+      "height": 38,
+      "weight": 655,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "845": {
+      "height": 8,
+      "weight": 180,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "846": {
+      "height": 5,
+      "weight": 10,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 8
+    },
+    "847": {
+      "height": 13,
+      "weight": 300,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 8
+    },
+    "848": {
+      "height": 4,
+      "weight": 110,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 8
+    },
+    "849": {
+      "height": 16,
+      "weight": 400,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 8
+    },
+    "850": {
+      "height": 7,
+      "weight": 10,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 8
+    },
+    "851": {
+      "height": 30,
+      "weight": 1200,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 8
+    },
+    "852": {
+      "height": 6,
+      "weight": 40,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 8
+    },
+    "853": {
+      "height": 16,
+      "weight": 390,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 8
+    },
+    "854": {
+      "height": 1,
+      "weight": 2,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 8
+    },
+    "855": {
+      "height": 2,
+      "weight": 4,
+      "color": "Morado",
+      "stage": 1,
+      "generation": 8
+    },
+    "856": {
+      "height": 4,
+      "weight": 34,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 8
+    },
+    "857": {
+      "height": 6,
+      "weight": 48,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 8
+    },
+    "858": {
+      "height": 21,
+      "weight": 51,
+      "color": "Rosa",
+      "stage": 2,
+      "generation": 8
+    },
+    "859": {
+      "height": 4,
+      "weight": 55,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 8
+    },
+    "860": {
+      "height": 8,
+      "weight": 125,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 8
+    },
+    "861": {
+      "height": 15,
+      "weight": 610,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 8
+    },
+    "862": {
+      "height": 16,
+      "weight": 460,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 8
+    },
+    "863": {
+      "height": 8,
+      "weight": 280,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 8
+    },
+    "864": {
+      "height": 10,
+      "weight": 4,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 8
+    },
+    "865": {
+      "height": 8,
+      "weight": 1170,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 8
+    },
+    "866": {
+      "height": 15,
+      "weight": 582,
+      "color": "Morado",
+      "stage": 2,
+      "generation": 8
+    },
+    "867": {
+      "height": 16,
+      "weight": 666,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 8
+    },
+    "868": {
+      "height": 2,
+      "weight": 3,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "869": {
+      "height": 3,
+      "weight": 5,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 8
+    },
+    "870": {
+      "height": 30,
+      "weight": 620,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 8
+    },
+    "871": {
+      "height": 3,
+      "weight": 10,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 8
+    },
+    "872": {
+      "height": 3,
+      "weight": 38,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "873": {
+      "height": 13,
+      "weight": 420,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 8
+    },
+    "874": {
+      "height": 25,
+      "weight": 5200,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 8
+    },
+    "875": {
+      "height": 14,
+      "weight": 890,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "876": {
+      "height": 9,
+      "weight": 280,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 8
+    },
+    "877": {
+      "height": 3,
+      "weight": 30,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 8
+    },
+    "878": {
+      "height": 12,
+      "weight": 1000,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 8
+    },
+    "879": {
+      "height": 30,
+      "weight": 6500,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "880": {
+      "height": 18,
+      "weight": 1900,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "881": {
+      "height": 23,
+      "weight": 1500,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "882": {
+      "height": 23,
+      "weight": 2150,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "883": {
+      "height": 20,
+      "weight": 1750,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "884": {
+      "height": 18,
+      "weight": 400,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "885": {
+      "height": 5,
+      "weight": 20,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "886": {
+      "height": 14,
+      "weight": 110,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "887": {
+      "height": 30,
+      "weight": 500,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 8
+    },
+    "888": {
+      "height": 28,
+      "weight": 1100,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 8
+    },
+    "889": {
+      "height": 29,
+      "weight": 2100,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 8
+    },
+    "890": {
+      "height": 200,
+      "weight": 9500,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 8
+    },
+    "891": {
+      "height": 6,
+      "weight": 120,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 8
+    },
+    "892": {
+      "height": 19,
+      "weight": 1050,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 8
+    },
+    "893": {
+      "height": 18,
+      "weight": 700,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "894": {
+      "height": 12,
+      "weight": 1450,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 8
+    },
+    "895": {
+      "height": 21,
+      "weight": 2000,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "896": {
+      "height": 22,
+      "weight": 8000,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 8
+    },
+    "897": {
+      "height": 20,
+      "weight": 445,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 8
+    },
+    "898": {
+      "height": 11,
+      "weight": 77,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 8
+    },
+    "899": {
+      "height": 18,
+      "weight": 951,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 8
+    },
+    "900": {
+      "height": 18,
+      "weight": 890,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 8
+    },
+    "901": {
+      "height": 24,
+      "weight": 2900,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 8
+    },
+    "902": {
+      "height": 30,
+      "weight": 1100,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 8
+    },
+    "903": {
+      "height": 13,
+      "weight": 430,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 8
+    },
+    "904": {
+      "height": 25,
+      "weight": 605,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 8
+    },
+    "905": {
+      "height": 16,
+      "weight": 480,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 8
+    },
+    "906": {
+      "height": 4,
+      "weight": 41,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "907": {
+      "height": 9,
+      "weight": 122,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "908": {
+      "height": 15,
+      "weight": 312,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 9
+    },
+    "909": {
+      "height": 4,
+      "weight": 98,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "910": {
+      "height": 10,
+      "weight": 307,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 9
+    },
+    "911": {
+      "height": 16,
+      "weight": 3265,
+      "color": "Rojo",
+      "stage": 2,
+      "generation": 9
+    },
+    "912": {
+      "height": 5,
+      "weight": 61,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "913": {
+      "height": 12,
+      "weight": 215,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 9
+    },
+    "914": {
+      "height": 18,
+      "weight": 619,
+      "color": "Azul",
+      "stage": 2,
+      "generation": 9
+    },
+    "915": {
+      "height": 5,
+      "weight": 102,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "916": {
+      "height": 10,
+      "weight": 1200,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "917": {
+      "height": 3,
+      "weight": 40,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "918": {
+      "height": 10,
+      "weight": 165,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "919": {
+      "height": 2,
+      "weight": 10,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "920": {
+      "height": 10,
+      "weight": 175,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "921": {
+      "height": 3,
+      "weight": 25,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "922": {
+      "height": 4,
+      "weight": 65,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 9
+    },
+    "923": {
+      "height": 9,
+      "weight": 410,
+      "color": "Amarillo",
+      "stage": 2,
+      "generation": 9
+    },
+    "924": {
+      "height": 3,
+      "weight": 18,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "925": {
+      "height": 3,
+      "weight": 28,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 9
+    },
+    "926": {
+      "height": 3,
+      "weight": 109,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "927": {
+      "height": 5,
+      "weight": 149,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 9
+    },
+    "928": {
+      "height": 3,
+      "weight": 65,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "929": {
+      "height": 6,
+      "weight": 119,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "930": {
+      "height": 14,
+      "weight": 482,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 9
+    },
+    "931": {
+      "height": 6,
+      "weight": 24,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "932": {
+      "height": 4,
+      "weight": 160,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "933": {
+      "height": 6,
+      "weight": 1050,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 9
+    },
+    "934": {
+      "height": 23,
+      "weight": 2400,
+      "color": "Marrón",
+      "stage": 2,
+      "generation": 9
+    },
+    "935": {
+      "height": 6,
+      "weight": 105,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "936": {
+      "height": 15,
+      "weight": 850,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 9
+    },
+    "937": {
+      "height": 16,
+      "weight": 620,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 9
+    },
+    "938": {
+      "height": 3,
+      "weight": 4,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "939": {
+      "height": 12,
+      "weight": 1130,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "940": {
+      "height": 4,
+      "weight": 36,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 9
+    },
+    "941": {
+      "height": 14,
+      "weight": 386,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 9
+    },
+    "942": {
+      "height": 5,
+      "weight": 160,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "943": {
+      "height": 11,
+      "weight": 610,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "944": {
+      "height": 2,
+      "weight": 7,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "945": {
+      "height": 7,
+      "weight": 272,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "946": {
+      "height": 6,
+      "weight": 6,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "947": {
+      "height": 12,
+      "weight": 60,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 9
+    },
+    "948": {
+      "height": 9,
+      "weight": 330,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "949": {
+      "height": 19,
+      "weight": 580,
+      "color": "Negro",
+      "stage": 1,
+      "generation": 9
+    },
+    "950": {
+      "height": 13,
+      "weight": 790,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "951": {
+      "height": 3,
+      "weight": 30,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "952": {
+      "height": 9,
+      "weight": 150,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "953": {
+      "height": 2,
+      "weight": 10,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "954": {
+      "height": 3,
+      "weight": 35,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "955": {
+      "height": 2,
+      "weight": 15,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "956": {
+      "height": 19,
+      "weight": 900,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 9
+    },
+    "957": {
+      "height": 4,
+      "weight": 89,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 9
+    },
+    "958": {
+      "height": 7,
+      "weight": 591,
+      "color": "Rosa",
+      "stage": 1,
+      "generation": 9
+    },
+    "959": {
+      "height": 7,
+      "weight": 1128,
+      "color": "Rosa",
+      "stage": 2,
+      "generation": 9
+    },
+    "960": {
+      "height": 12,
+      "weight": 18,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "961": {
+      "height": 12,
+      "weight": 54,
+      "color": "Rojo",
+      "stage": 1,
+      "generation": 9
+    },
+    "962": {
+      "height": 15,
+      "weight": 429,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "963": {
+      "height": 13,
+      "weight": 602,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "964": {
+      "height": 13,
+      "weight": 602,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 9
+    },
+    "965": {
+      "height": 10,
+      "weight": 350,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "966": {
+      "height": 18,
+      "weight": 1200,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "967": {
+      "height": 16,
+      "weight": 630,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "968": {
+      "height": 25,
+      "weight": 3100,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 9
+    },
+    "969": {
+      "height": 7,
+      "weight": 80,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "970": {
+      "height": 15,
+      "weight": 450,
+      "color": "Azul",
+      "stage": 1,
+      "generation": 9
+    },
+    "971": {
+      "height": 6,
+      "weight": 350,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "972": {
+      "height": 20,
+      "weight": 150,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 9
+    },
+    "973": {
+      "height": 16,
+      "weight": 370,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 9
+    },
+    "974": {
+      "height": 12,
+      "weight": 450,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "975": {
+      "height": 45,
+      "weight": 7000,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 9
+    },
+    "976": {
+      "height": 25,
+      "weight": 900,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "977": {
+      "height": 120,
+      "weight": 2200,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "978": {
+      "height": 3,
+      "weight": 80,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 9
+    },
+    "979": {
+      "height": 12,
+      "weight": 560,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 9
+    },
+    "980": {
+      "height": 18,
+      "weight": 2230,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 9
+    },
+    "981": {
+      "height": 32,
+      "weight": 1600,
+      "color": "Marrón",
+      "stage": 1,
+      "generation": 9
+    },
+    "982": {
+      "height": 36,
+      "weight": 392,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 9
+    },
+    "983": {
+      "height": 20,
+      "weight": 1200,
+      "color": "Negro",
+      "stage": 2,
+      "generation": 9
+    },
+    "984": {
+      "height": 22,
+      "weight": 3200,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 9
+    },
+    "985": {
+      "height": 12,
+      "weight": 80,
+      "color": "Rosa",
+      "stage": 0,
+      "generation": 9
+    },
+    "986": {
+      "height": 12,
+      "weight": 210,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "987": {
+      "height": 14,
+      "weight": 40,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "988": {
+      "height": 32,
+      "weight": 920,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "989": {
+      "height": 23,
+      "weight": 600,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "990": {
+      "height": 9,
+      "weight": 2400,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "991": {
+      "height": 6,
+      "weight": 110,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "992": {
+      "height": 18,
+      "weight": 3807,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "993": {
+      "height": 13,
+      "weight": 1110,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "994": {
+      "height": 12,
+      "weight": 360,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "995": {
+      "height": 16,
+      "weight": 3030,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "996": {
+      "height": 5,
+      "weight": 170,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "997": {
+      "height": 8,
+      "weight": 300,
+      "color": "Gris",
+      "stage": 1,
+      "generation": 9
+    },
+    "998": {
+      "height": 21,
+      "weight": 2100,
+      "color": "Gris",
+      "stage": 2,
+      "generation": 9
+    },
+    "999": {
+      "height": 3,
+      "weight": 50,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "1000": {
+      "height": 12,
+      "weight": 300,
+      "color": "Amarillo",
+      "stage": 1,
+      "generation": 9
+    },
+    "1001": {
+      "height": 15,
+      "weight": 742,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "1002": {
+      "height": 19,
+      "weight": 1522,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "1003": {
+      "height": 27,
+      "weight": 6997,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "1004": {
+      "height": 4,
+      "weight": 49,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "1005": {
+      "height": 20,
+      "weight": 3800,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "1006": {
+      "height": 14,
+      "weight": 350,
+      "color": "Blanco",
+      "stage": 0,
+      "generation": 9
+    },
+    "1007": {
+      "height": 25,
+      "weight": 3030,
+      "color": "Rojo",
+      "stage": 0,
+      "generation": 9
+    },
+    "1008": {
+      "height": 35,
+      "weight": 2400,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "1009": {
+      "height": 35,
+      "weight": 2800,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "1010": {
+      "height": 15,
+      "weight": 1250,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "1011": {
+      "height": 4,
+      "weight": 97,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "1012": {
+      "height": 1,
+      "weight": 11,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "1013": {
+      "height": 2,
+      "weight": 22,
+      "color": "Verde",
+      "stage": 1,
+      "generation": 9
+    },
+    "1014": {
+      "height": 18,
+      "weight": 922,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 9
+    },
+    "1015": {
+      "height": 10,
+      "weight": 122,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 9
+    },
+    "1016": {
+      "height": 14,
+      "weight": 301,
+      "color": "Negro",
+      "stage": 0,
+      "generation": 9
+    },
+    "1017": {
+      "height": 12,
+      "weight": 398,
+      "color": "Verde",
+      "stage": 0,
+      "generation": 9
+    },
+    "1018": {
+      "height": 20,
+      "weight": 600,
+      "color": "Blanco",
+      "stage": 1,
+      "generation": 9
+    },
+    "1019": {
+      "height": 18,
+      "weight": 930,
+      "color": "Verde",
+      "stage": 2,
+      "generation": 9
+    },
+    "1020": {
+      "height": 35,
+      "weight": 5900,
+      "color": "Marrón",
+      "stage": 0,
+      "generation": 9
+    },
+    "1021": {
+      "height": 52,
+      "weight": 4800,
+      "color": "Amarillo",
+      "stage": 0,
+      "generation": 9
+    },
+    "1022": {
+      "height": 15,
+      "weight": 1625,
+      "color": "Gris",
+      "stage": 0,
+      "generation": 9
+    },
+    "1023": {
+      "height": 16,
+      "weight": 1560,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "1024": {
+      "height": 2,
+      "weight": 65,
+      "color": "Azul",
+      "stage": 0,
+      "generation": 9
+    },
+    "1025": {
+      "height": 3,
+      "weight": 3,
+      "color": "Morado",
+      "stage": 0,
+      "generation": 9
+    }
+  }
+}

@@ -1,0 +1,917 @@
+[
+  {
+    "id": 10001,
+    "slug": "deoxys-attack",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10002,
+    "slug": "deoxys-defense",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10003,
+    "slug": "deoxys-speed",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10004,
+    "slug": "wormadam-sandy",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10005,
+    "slug": "wormadam-trash",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10006,
+    "slug": "shaymin-sky",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10007,
+    "slug": "giratina-origin",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10008,
+    "slug": "rotom-heat",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10009,
+    "slug": "rotom-wash",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10010,
+    "slug": "rotom-frost",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10011,
+    "slug": "rotom-fan",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10012,
+    "slug": "rotom-mow",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10013,
+    "slug": "castform-sunny",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10014,
+    "slug": "castform-rainy",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10015,
+    "slug": "castform-snowy",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10016,
+    "slug": "basculin-blue-striped",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10017,
+    "slug": "darmanitan-zen",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10018,
+    "slug": "meloetta-pirouette",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10019,
+    "slug": "tornadus-therian",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10020,
+    "slug": "thundurus-therian",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10021,
+    "slug": "landorus-therian",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10022,
+    "slug": "kyurem-black",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10023,
+    "slug": "kyurem-white",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10024,
+    "slug": "keldeo-resolute",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10025,
+    "slug": "meowstic-female",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10026,
+    "slug": "aegislash-blade",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10027,
+    "slug": "pumpkaboo-small",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10028,
+    "slug": "pumpkaboo-large",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10029,
+    "slug": "pumpkaboo-super",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10030,
+    "slug": "gourgeist-small",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10031,
+    "slug": "gourgeist-large",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10032,
+    "slug": "gourgeist-super",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10061,
+    "slug": "floette-eternal",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10080,
+    "slug": "pikachu-rock-star",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10081,
+    "slug": "pikachu-belle",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10082,
+    "slug": "pikachu-pop-star",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10083,
+    "slug": "pikachu-phd",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10084,
+    "slug": "pikachu-libre",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10085,
+    "slug": "pikachu-cosplay",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10086,
+    "slug": "hoopa-unbound",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10093,
+    "slug": "raticate-totem-alola",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10094,
+    "slug": "pikachu-original-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10095,
+    "slug": "pikachu-hoenn-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10096,
+    "slug": "pikachu-sinnoh-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10097,
+    "slug": "pikachu-unova-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10098,
+    "slug": "pikachu-kalos-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10099,
+    "slug": "pikachu-alola-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10116,
+    "slug": "greninja-battle-bond",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10117,
+    "slug": "greninja-ash",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10118,
+    "slug": "zygarde-10-power-construct",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10119,
+    "slug": "zygarde-50-power-construct",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10120,
+    "slug": "zygarde-complete",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10121,
+    "slug": "gumshoos-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10122,
+    "slug": "vikavolt-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10123,
+    "slug": "oricorio-pom-pom",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10124,
+    "slug": "oricorio-pau",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10125,
+    "slug": "oricorio-sensu",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10126,
+    "slug": "lycanroc-midnight",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10127,
+    "slug": "wishiwashi-school",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10128,
+    "slug": "lurantis-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10129,
+    "slug": "salazzle-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10130,
+    "slug": "minior-orange-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10131,
+    "slug": "minior-yellow-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10132,
+    "slug": "minior-green-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10133,
+    "slug": "minior-blue-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10134,
+    "slug": "minior-indigo-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10135,
+    "slug": "minior-violet-meteor",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10136,
+    "slug": "minior-red",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10137,
+    "slug": "minior-orange",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10138,
+    "slug": "minior-yellow",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10139,
+    "slug": "minior-green",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10140,
+    "slug": "minior-blue",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10141,
+    "slug": "minior-indigo",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10142,
+    "slug": "minior-violet",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10143,
+    "slug": "mimikyu-busted",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10144,
+    "slug": "mimikyu-totem-disguised",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10145,
+    "slug": "mimikyu-totem-busted",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10146,
+    "slug": "kommo-o-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10147,
+    "slug": "magearna-original",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10148,
+    "slug": "pikachu-partner-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10149,
+    "slug": "marowak-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10150,
+    "slug": "ribombee-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10151,
+    "slug": "rockruff-own-tempo",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10152,
+    "slug": "lycanroc-dusk",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10153,
+    "slug": "araquanid-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10154,
+    "slug": "togedemaru-totem",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10155,
+    "slug": "necrozma-dusk",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10156,
+    "slug": "necrozma-dawn",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10157,
+    "slug": "necrozma-ultra",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10158,
+    "slug": "pikachu-starter",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10159,
+    "slug": "eevee-starter",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10160,
+    "slug": "pikachu-world-cap",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10177,
+    "slug": "darmanitan-galar-standard",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10178,
+    "slug": "darmanitan-galar-zen",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10181,
+    "slug": "zygarde-10",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10182,
+    "slug": "cramorant-gulping",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10183,
+    "slug": "cramorant-gorging",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10184,
+    "slug": "toxtricity-low-key",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10185,
+    "slug": "eiscue-noice",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10186,
+    "slug": "indeedee-female",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10187,
+    "slug": "morpeko-hangry",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10188,
+    "slug": "zacian-crowned",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10189,
+    "slug": "zamazenta-crowned",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10190,
+    "slug": "eternatus-eternamax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10191,
+    "slug": "urshifu-rapid-strike",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10192,
+    "slug": "zarude-dada",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10193,
+    "slug": "calyrex-ice",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10194,
+    "slug": "calyrex-shadow",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10195,
+    "slug": "venusaur-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10196,
+    "slug": "charizard-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10197,
+    "slug": "blastoise-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10198,
+    "slug": "butterfree-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10199,
+    "slug": "pikachu-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10200,
+    "slug": "meowth-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10201,
+    "slug": "machamp-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10202,
+    "slug": "gengar-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10203,
+    "slug": "kingler-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10204,
+    "slug": "lapras-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10205,
+    "slug": "eevee-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10206,
+    "slug": "snorlax-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10207,
+    "slug": "garbodor-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10208,
+    "slug": "melmetal-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10209,
+    "slug": "rillaboom-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10210,
+    "slug": "cinderace-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10211,
+    "slug": "inteleon-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10212,
+    "slug": "corviknight-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10213,
+    "slug": "orbeetle-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10214,
+    "slug": "drednaw-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10215,
+    "slug": "coalossal-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10216,
+    "slug": "flapple-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10217,
+    "slug": "appletun-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10218,
+    "slug": "sandaconda-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10219,
+    "slug": "toxtricity-amped-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10220,
+    "slug": "centiskorch-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10221,
+    "slug": "hatterene-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10222,
+    "slug": "grimmsnarl-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10223,
+    "slug": "alcremie-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10224,
+    "slug": "copperajah-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10225,
+    "slug": "duraludon-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10226,
+    "slug": "urshifu-single-strike-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10227,
+    "slug": "urshifu-rapid-strike-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10228,
+    "slug": "toxtricity-low-key-gmax",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10245,
+    "slug": "dialga-origin",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10246,
+    "slug": "palkia-origin",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10247,
+    "slug": "basculin-white-striped",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10248,
+    "slug": "basculegion-female",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10249,
+    "slug": "enamorus-therian",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10250,
+    "slug": "tauros-paldea-combat-breed",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10251,
+    "slug": "tauros-paldea-blaze-breed",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10252,
+    "slug": "tauros-paldea-aqua-breed",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10254,
+    "slug": "oinkologne-female",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10255,
+    "slug": "dudunsparce-three-segment",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10256,
+    "slug": "palafin-hero",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10257,
+    "slug": "maushold-family-of-three",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10258,
+    "slug": "tatsugiri-droopy",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10259,
+    "slug": "tatsugiri-stretchy",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10260,
+    "slug": "squawkabilly-blue-plumage",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10261,
+    "slug": "squawkabilly-yellow-plumage",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10262,
+    "slug": "squawkabilly-white-plumage",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10263,
+    "slug": "gimmighoul-roaming",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10264,
+    "slug": "koraidon-limited-build",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10265,
+    "slug": "koraidon-sprinting-build",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10266,
+    "slug": "koraidon-swimming-build",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10267,
+    "slug": "koraidon-gliding-build",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10268,
+    "slug": "miraidon-low-power-mode",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10269,
+    "slug": "miraidon-drive-mode",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10270,
+    "slug": "miraidon-aquatic-mode",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10271,
+    "slug": "miraidon-glide-mode",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10272,
+    "slug": "ursaluna-bloodmoon",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10273,
+    "slug": "ogerpon-wellspring-mask",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10274,
+    "slug": "ogerpon-hearthflame-mask",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10275,
+    "slug": "ogerpon-cornerstone-mask",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10276,
+    "slug": "terapagos-terastal",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10277,
+    "slug": "terapagos-stellar",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10307,
+    "slug": "absol-mega-z",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10309,
+    "slug": "garchomp-mega-z",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10310,
+    "slug": "lucario-mega-z",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10314,
+    "slug": "meowstic-male-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10318,
+    "slug": "magearna-original-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10322,
+    "slug": "tatsugiri-curly-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10323,
+    "slug": "tatsugiri-droopy-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10324,
+    "slug": "tatsugiri-stretchy-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  },
+  {
+    "id": 10326,
+    "slug": "meowstic-female-mega",
+    "reason": "Variante pendiente de clasificación e imagen revisadas"
+  }
+]
