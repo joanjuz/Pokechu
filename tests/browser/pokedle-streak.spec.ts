@@ -10,7 +10,7 @@ async function audioSpy(page:Page){await page.addInitScript(()=>{window.testAudi
 async function cryId(page:Page){return page.evaluate(()=>Number(window.testAudios.at(-1)!.src.match(/\/(\d+)\.(ogg|mp3)/)![1]));}
 
 test('aleatoria es predeterminada y modo infinito permanece al final en escritorio y móvil',async({page},info)=>{
-  for(const width of [320,1280]){await page.setViewportSize({width,height:900});await page.goto('');await expect(page.locator('.game-tile')).toHaveCount(10);await expect(page.locator('.game-tile').last()).toHaveAttribute('href','#/infinito');await expect(page.getByLabel('Estadística para comparar')).toHaveValue('random');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
+  for(const width of [320,1280]){await page.setViewportSize({width,height:900});await page.goto('');await expect(page.locator('.game-tile')).toHaveCount(11);await expect(page.locator('.game-tile').last()).toHaveAttribute('href','#/infinito');await expect(page.getByLabel('Estadística para comparar')).toHaveValue('random');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}
   await page.screenshot({path:info.outputPath('inicio-orden.png'),fullPage:true});
 });
 

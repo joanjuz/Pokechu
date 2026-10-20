@@ -45,7 +45,7 @@ test('modo infinito cambia de reto al acertar y termina la racha al fallar',asyn
 });
 
 test('modo infinito respeta la mezcla elegida y excluye pasapalabra',async({page})=>{
-  await page.goto('?seed=42#/infinito');await expect(page.locator('[name="infinite-game"]')).toHaveCount(7);await expect(page.locator('[name="infinite-game"][value="pasapalabra"]')).toHaveCount(0);
+  await page.goto('?seed=42#/infinito');await expect(page.locator('[name="infinite-game"]')).toHaveCount(8);await expect(page.locator('[name="infinite-game"][value="pasapalabra"]')).toHaveCount(0);
   for(const input of await page.locator('[name="infinite-game"]').all())await input.uncheck();await expect(page.getByRole('button',{name:'Empezar racha'})).toBeDisabled();
   await infiniteSelection(page,['bst','ojos']);const first=await page.locator('.infinite-challenge h1').innerText();
   if(first==='Mayor o menor'){await expect(page.locator('[data-answer="equal"]')).toBeEnabled();await page.locator(`[data-answer="${await bstAnswer(page)}"]`).click();}

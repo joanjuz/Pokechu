@@ -115,7 +115,7 @@ test('recupera un bloqueo de reproducción sin penalizar y detiene el audio al s
   await expect(page.locator('[data-choice]').first()).toBeDisabled(); await expect(page.locator('.round-header')).toContainText('Una elección');
   await page.getByRole('button', { name: 'Escuchar grito', exact: true }).click(); await expect(page.locator('[data-choice]').first()).toBeEnabled();
   await page.getByRole('link', { name: 'Volver a los juegos', exact: true }).click();
-  await expect(page.locator('.game-tile')).toHaveCount(10);
+  await expect(page.locator('.game-tile')).toHaveCount(11);
   expect(await page.evaluate(() => window.testAudios.every(a => a.paused && !a.getAttribute('src')))).toBe(true);
 });
 
@@ -139,8 +139,8 @@ test('los archivos de gritos Ogg y MP3 se decodifican en el navegador', async ({
   expect(results).toEqual([true, true, true]);
 });
 
-test('presenta los diez juegos sin desbordamiento en pantallas pequeñas', async ({ page }, info) => {
-  await page.goto(''); await expect(page.locator('.game-tile')).toHaveCount(10);
+test('presenta los once juegos sin desbordamiento en pantallas pequeñas', async ({ page }, info) => {
+  await page.goto(''); await expect(page.locator('.game-tile')).toHaveCount(11);
   await expect(page.locator('.game-library')).not.toContainText('undefined');
   for (const route of ['ojos', 'gritos']) {
     await page.locator(`a[href="#/${route}"]`).click(); await expect(page.locator(route==='ojos'?'.recognition-screen':'.cry-question')).toBeVisible();

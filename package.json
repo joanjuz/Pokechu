@@ -1,7 +1,7 @@
 {
   "name": "pokejuegos",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "engines": {
     "node": ">=22.12.0"
@@ -12,12 +12,13 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
     "test:browser": "playwright test",
-    "data:import": "node scripts/data/import.mjs && node scripts/data/build-quiz.mjs && node scripts/data/build-grid.mjs && node scripts/data/build-pokedle.mjs",
+    "data:import": "node scripts/data/import.mjs && node scripts/data/build-quiz.mjs && node scripts/data/build-grid.mjs && node scripts/data/build-pokedle.mjs && node scripts/data/build-defense.mjs",
     "data:quiz": "node scripts/data/build-quiz.mjs",
     "data:validate": "node scripts/data/validate.mjs",
     "data:recognition": "node scripts/data/build-recognition.mjs",
     "data:grid": "node scripts/data/build-grid.mjs",
-    "data:pokedle": "node scripts/data/build-pokedle.mjs"
+    "data:pokedle": "node scripts/data/build-pokedle.mjs",
+    "data:defense": "node scripts/data/build-defense.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",

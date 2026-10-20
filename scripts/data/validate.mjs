@@ -46,3 +46,8 @@ const pokedleSources=JSON.parse(await readFile('data/pokedle-sources.lock.json',
 if(pokedleSources.sourceRevision!==lock.dataRevision||createHash('sha1').update(`blob ${colorBytes.length}\0`).update(colorBytes).digest('hex')!==pokedleSources.colorsGitSha)throw Error('Origen de colores incompatible');
 for(const p of catalog.pokemon.filter(p=>p.kind==='default')){const t=pokedle.traits[p.speciesId];if(!t||t.height<=0||t.weight<=0||!t.color||!Number.isInteger(t.stage)||t.stage<0||t.generation!==species.get(p.speciesId).generation)throw Error(`Rasgos inválidos de Pokédle: ${p.id}`);}
 console.log(`Rasgos de Pokédle verificados para ${Object.keys(pokedle.traits).length} especies.`);
+const defense=JSON.parse(await readFile('data/generated/defense.json','utf8')),defenseSources=JSON.parse(await readFile('data/defense-sources.lock.json','utf8'));
+if(defense.catalogVersion!==catalog.version||defense.sourceRevision!==lock.dataRevision||defenseSources.sourceRevision!==lock.dataRevision||defense.types.length!==18)throw Error('Defensas incompatibles con el catálogo');
+for(const [name,hash] of Object.entries(defense.csvSha256)){const bytes=await readFile(`data/raw/${name}.csv`);if(createHash('sha256').update(bytes).digest('hex')!==hash)throw Error(`CSV de defensas alterado: ${name}`);if(name!=='type_names'&&createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex')!==defenseSources.files[name].gitSha)throw Error(`Origen de defensas alterado: ${name}`);}
+for(const attack of defense.types)for(const type of defense.types)if(![0,.5,1,2].includes(defense.chart[attack]?.[type]))throw Error(`Cruce de tipos inválido: ${attack}/${type}`);
+console.log('Tabla defensiva de 18 tipos y efectos de habilidad verificados.');

@@ -1,4 +1,4 @@
-export const INFINITE_GAMES=['bst','silueta','piramide','ojos','gritos','tabla','pokedle'] as const;
+export const INFINITE_GAMES=['bst','silueta','piramide','ojos','gritos','tabla','pokedle','debilidades'] as const;
 export type InfiniteGame=typeof INFINITE_GAMES[number];
 export function selectedGames(value:unknown):InfiniteGame[] { return Array.isArray(value)?INFINITE_GAMES.filter(id=>value.includes(id)):[]; }
 export function shuffledCycle(selected:InfiniteGame[],random=Math.random):InfiniteGame[] {

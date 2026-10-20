@@ -1,0 +1,510 @@
+{
+  "version": "defense-v1",
+  "catalogVersion": "v1-6fd69dfe90",
+  "sourceRevision": "6fd69dfe90465ba96534f6816fc817737d1f97f6",
+  "csvSha256": {
+    "type_efficacy": "cdd7de4066680414d0a2433af805f139f425d6350cbf998ecab559a0fe8ff587",
+    "ability_prose": "8547ffe366f48145796e14ed1848042d838c7273340a84c107fac755367cbb22",
+    "type_names": "685230c51074cf2f723debcf827a4df4c36ab0ec7e929c806ad65a3e40958705"
+  },
+  "types": [
+    "Normal",
+    "Lucha",
+    "Volador",
+    "Veneno",
+    "Tierra",
+    "Roca",
+    "Bicho",
+    "Fantasma",
+    "Acero",
+    "Fuego",
+    "Agua",
+    "Planta",
+    "Eléctrico",
+    "Psíquico",
+    "Hielo",
+    "Dragón",
+    "Siniestro",
+    "Hada"
+  ],
+  "chart": {
+    "Normal": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 0.5,
+      "Bicho": 1,
+      "Fantasma": 0,
+      "Acero": 0.5,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Lucha": {
+      "Normal": 2,
+      "Lucha": 1,
+      "Volador": 0.5,
+      "Veneno": 0.5,
+      "Tierra": 1,
+      "Roca": 2,
+      "Bicho": 0.5,
+      "Fantasma": 0,
+      "Acero": 2,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 0.5,
+      "Hielo": 2,
+      "Dragón": 1,
+      "Siniestro": 2,
+      "Hada": 0.5
+    },
+    "Volador": {
+      "Normal": 1,
+      "Lucha": 2,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 0.5,
+      "Bicho": 2,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 2,
+      "Eléctrico": 0.5,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Veneno": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 0.5,
+      "Tierra": 0.5,
+      "Roca": 0.5,
+      "Bicho": 1,
+      "Fantasma": 0.5,
+      "Acero": 0,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 2,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 2
+    },
+    "Tierra": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 0,
+      "Veneno": 2,
+      "Tierra": 1,
+      "Roca": 2,
+      "Bicho": 0.5,
+      "Fantasma": 1,
+      "Acero": 2,
+      "Fuego": 2,
+      "Agua": 1,
+      "Planta": 0.5,
+      "Eléctrico": 2,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Roca": {
+      "Normal": 1,
+      "Lucha": 0.5,
+      "Volador": 2,
+      "Veneno": 1,
+      "Tierra": 0.5,
+      "Roca": 1,
+      "Bicho": 2,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 2,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 2,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Bicho": {
+      "Normal": 1,
+      "Lucha": 0.5,
+      "Volador": 0.5,
+      "Veneno": 0.5,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 0.5,
+      "Acero": 0.5,
+      "Fuego": 0.5,
+      "Agua": 1,
+      "Planta": 2,
+      "Eléctrico": 1,
+      "Psíquico": 2,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 2,
+      "Hada": 0.5
+    },
+    "Fantasma": {
+      "Normal": 0,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 2,
+      "Acero": 1,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 2,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 0.5,
+      "Hada": 1
+    },
+    "Acero": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 2,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 0.5,
+      "Agua": 0.5,
+      "Planta": 1,
+      "Eléctrico": 0.5,
+      "Psíquico": 1,
+      "Hielo": 2,
+      "Dragón": 1,
+      "Siniestro": 1,
+      "Hada": 2
+    },
+    "Fuego": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 0.5,
+      "Bicho": 2,
+      "Fantasma": 1,
+      "Acero": 2,
+      "Fuego": 0.5,
+      "Agua": 0.5,
+      "Planta": 2,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 2,
+      "Dragón": 0.5,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Agua": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 2,
+      "Roca": 2,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 1,
+      "Fuego": 2,
+      "Agua": 0.5,
+      "Planta": 0.5,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 0.5,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Planta": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 0.5,
+      "Veneno": 0.5,
+      "Tierra": 2,
+      "Roca": 2,
+      "Bicho": 0.5,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 0.5,
+      "Agua": 2,
+      "Planta": 0.5,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 0.5,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Eléctrico": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 2,
+      "Veneno": 1,
+      "Tierra": 0,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 1,
+      "Fuego": 1,
+      "Agua": 2,
+      "Planta": 0.5,
+      "Eléctrico": 0.5,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 0.5,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Psíquico": {
+      "Normal": 1,
+      "Lucha": 2,
+      "Volador": 1,
+      "Veneno": 2,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 0.5,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 0,
+      "Hada": 1
+    },
+    "Hielo": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 2,
+      "Veneno": 1,
+      "Tierra": 2,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 0.5,
+      "Agua": 0.5,
+      "Planta": 2,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 0.5,
+      "Dragón": 2,
+      "Siniestro": 1,
+      "Hada": 1
+    },
+    "Dragón": {
+      "Normal": 1,
+      "Lucha": 1,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 2,
+      "Siniestro": 1,
+      "Hada": 0
+    },
+    "Siniestro": {
+      "Normal": 1,
+      "Lucha": 0.5,
+      "Volador": 1,
+      "Veneno": 1,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 2,
+      "Acero": 1,
+      "Fuego": 1,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 2,
+      "Hielo": 1,
+      "Dragón": 1,
+      "Siniestro": 0.5,
+      "Hada": 0.5
+    },
+    "Hada": {
+      "Normal": 1,
+      "Lucha": 2,
+      "Volador": 1,
+      "Veneno": 0.5,
+      "Tierra": 1,
+      "Roca": 1,
+      "Bicho": 1,
+      "Fantasma": 1,
+      "Acero": 0.5,
+      "Fuego": 0.5,
+      "Agua": 1,
+      "Planta": 1,
+      "Eléctrico": 1,
+      "Psíquico": 1,
+      "Hielo": 1,
+      "Dragón": 2,
+      "Siniestro": 2,
+      "Hada": 1
+    }
+  },
+  "effects": {
+    "10": {
+      "immune": [
+        "Eléctrico"
+      ],
+      "sourceEffect": "Absorbs Electric moves, healing for 1/4 max HP."
+    },
+    "11": {
+      "immune": [
+        "Agua"
+      ],
+      "sourceEffect": "Absorbs Water moves, healing for 1/4 max HP."
+    },
+    "18": {
+      "immune": [
+        "Fuego"
+      ],
+      "sourceEffect": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+    },
+    "25": {
+      "wonderGuard": true,
+      "sourceEffect": "Protects against damaging moves that are not super effective."
+    },
+    "26": {
+      "immune": [
+        "Tierra"
+      ],
+      "sourceEffect": "Evades Ground moves."
+    },
+    "31": {
+      "immune": [
+        "Eléctrico"
+      ],
+      "sourceEffect": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+    },
+    "47": {
+      "factors": {
+        "Fuego": 0.5,
+        "Hielo": 0.5
+      },
+      "sourceEffect": "Halves damage from Fire and Ice moves."
+    },
+    "78": {
+      "immune": [
+        "Eléctrico"
+      ],
+      "sourceEffect": "Absorbs Electric moves, raising Speed one stage."
+    },
+    "85": {
+      "factors": {
+        "Fuego": 0.5
+      },
+      "sourceEffect": "Halves damage from Fire moves and burns."
+    },
+    "87": {
+      "immune": [
+        "Agua"
+      ],
+      "factors": {
+        "Fuego": 1.25
+      },
+      "sourceEffect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP."
+    },
+    "111": {
+      "superEffective": 0.75,
+      "sourceEffect": "Decreases damage taken from super-effective moves by 1/4."
+    },
+    "114": {
+      "immune": [
+        "Agua"
+      ],
+      "sourceEffect": "Redirects single-target Water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage."
+    },
+    "116": {
+      "superEffective": 0.75,
+      "sourceEffect": "Decreases damage taken from super-effective moves by 1/4."
+    },
+    "157": {
+      "immune": [
+        "Planta"
+      ],
+      "sourceEffect": "Absorbs Grass moves, raising Attack one stage."
+    },
+    "199": {
+      "factors": {
+        "Fuego": 0.5
+      },
+      "sourceEffect": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns."
+    },
+    "218": {
+      "factors": {
+        "Fuego": 2
+      },
+      "sourceEffect": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
+    },
+    "232": {
+      "superEffective": 0.75,
+      "sourceEffect": "Reduces super-effective damage to 0.75×."
+    },
+    "272": {
+      "factors": {
+        "Fantasma": 0.5
+      },
+      "sourceEffect": "Protects from status conditions and halves damage from Ghost-type moves."
+    },
+    "273": {
+      "immune": [
+        "Fuego"
+      ],
+      "sourceEffect": "Immune to Fire-type moves, and Defense is sharply boosted."
+    },
+    "297": {
+      "immune": [
+        "Tierra"
+      ],
+      "sourceEffect": "Restores HP when hit by a Ground-type move."
+    }
+  }
+}

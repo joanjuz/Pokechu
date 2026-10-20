@@ -1,6 +1,6 @@
 # Pokechu
 
-Versión estable 1.0.0 · [Abrir Pokechu](https://joanjuz.github.io/Pokechu/) · [Repositorio](https://github.com/joanjuz/Pokechu).
+Versión 1.1.0 · [Abrir Pokechu](https://joanjuz.github.io/Pokechu/) · [Repositorio](https://github.com/joanjuz/Pokechu).
 
 Actualización: la biblioteca incluye Pokédle y mantiene Modo infinito siempre al final. La estadística predeterminada es Aleatoria; las elecciones guardadas por el jugador se conservan. Mayor/Menor/Igual compara el valor conocido de la izquierda frente al oculto de la derecha: 510 frente a 410 se responde Mayor.
 
@@ -14,7 +14,7 @@ Pokédle (`#/pokedle`) ofrece propuestas sin límite con autocompletado. Cada pr
 
 Minijuegos Pokémon en español para GitHub Pages. TypeScript estricto, Vite y componentes HTML/CSS con interfaz oscura. No hay cuentas ni servicios de partidas.
 
-Diez juegos: Mayor o menor, Siluetas, Pirámide Pokémon, Pasapalabra Pokémon, Ojos, Gritos, Modo infinito, Tabla de cruces Pokémon, Construye tu BST y Pokédle. Todos admiten cualquier combinación de generaciones. Minijuegos, Pokédex y Logros están juntos en la navegación superior, también en móvil.
+Once juegos: Mayor o menor, Siluetas, Pirámide Pokémon, Pasapalabra Pokémon, Ojos, Gritos, Modo infinito, Tabla de cruces Pokémon, Construye tu BST, Pokédle y Debilidades y resistencias. Todos admiten cualquier combinación de generaciones. Minijuegos, Pokédex y Logros están juntos en la navegación superior, también en móvil.
 
 Los filtros están en un menú lateral fijo en escritorio y un panel con el botón Ajustes en móvil. Cambiar generaciones reinicia automáticamente la partida actual con el nuevo catálogo, manteniendo sus récords. Cambiar estadísticas o formas reinicia los juegos a los que afecta (comparación y pirámide), sin interrumpir los juegos de reconocimiento ni pasapalabra.
 
@@ -91,3 +91,7 @@ Los récords y ajustes se almacenan en el navegador, separados por juego, filtro
 ## Sugerencias de nombres
 
 Siluetas, Pasapalabra y Ojos comparten un autocompletado que admite prefijos, tildes y alias. Usa flechas y Enter para elegir, o pulsa una sugerencia. En Pasapalabra elegir completa el nombre; Responder confirma la respuesta. Las sugerencias respetan las generaciones activas.
+
+Debilidades y resistencias (`#/debilidades`): tabla local de los 18 tipos, combinando ambos tipos con una habilidad posible, incluidas las ocultas. Se usan ataques sin contacto y condiciones neutrales, sin clima/objetos/PS/teracristalización ni habilidades del atacante. Los modificadores de tipos permanentes incluyen Levitación, absorciones, Sebo, Superguarda, Filtro y similares; los multiplicadores no estándar (por ejemplo 1,5) se muestran en su propio grupo. Cada cuatro propuestas incorrectas de especies diferentes se desbloquea una pista: generación a los 4, habilidad activa a los 8 y silueta a los 12. No hay vidas ni límite de propuestas. Repetir una especie no cuenta de nuevo. Solo acertar suma un punto y registra la especie; en infinito se resuelve el Pokémon completo por reto. Las formas se limitan a las habituales de las generaciones elegidas. Varias especies pueden compartir tabla, pero las pistas se refieren a una respuesta concreta.
+
+`npm run data:defense` reproduce la tabla y los efectos desde los CSV fijados de PokeAPI. `data/defense-sources.lock.json` fija los blobs de tipos y descripciones de habilidades; el generador y la validación comprueban SHA-256 y SHA de Git. No hay peticiones al proveedor durante la partida.
