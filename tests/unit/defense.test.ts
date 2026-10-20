@@ -29,5 +29,11 @@ it('mantiene la misma habilidad y respuesta al fallar y reinicia sin pistas',()=
   const initial=createDefense(p(635),26),failed=guessDefense(initial,p(1));expect(failed.target).toBe(initial.target);expect(failed.ability).toBe(26);expect(createDefense(p(212),68)).toMatchObject({ability:68,misses:0,guesses:[],phase:'answer'});
 });
 it('tiene un icono local con nombre para cada tipo y se puede elegir en infinito',()=>{
-  for(const type of data.types){expect(typeBadge(type)).toContain(`<span>${type}</span>`);expect(typeBadge(type)).toContain('<svg');}expect(INFINITE_GAMES).toContain('debilidades');
+  for(const type of data.types){const markup=typeBadge(type);expect(markup).toContain(`<span>${type}</span>`);expect(markup).toContain('<svg');expect(markup).toContain('type-icons/pokemon-types.svg#');expect(markup).toContain('<use href=');}expect(INFINITE_GAMES).toContain('debilidades');
+});
+
+it('usa los dieciocho símbolos de tipos sin duplicar identificadores',()=>{
+  const mapping:Record<string,string>={Normal:'normal',Lucha:'fighting',Volador:'flying',Veneno:'poison',Tierra:'ground',Roca:'rock',Bicho:'bug',Fantasma:'ghost',Acero:'steel',Fuego:'fire',Agua:'water',Planta:'grass',Eléctrico:'electric',Psíquico:'psychic',Hielo:'ice',Dragón:'dragon',Siniestro:'dark',Hada:'fairy'};
+  expect(new Set(Object.values(mapping)).size).toBe(18);
+  for(const type of data.types)expect(typeBadge(type)).toContain(`pokemon-types.svg#${mapping[type]}`);
 });
