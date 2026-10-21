@@ -1,7 +1,7 @@
 import {searchPokemon} from '../domain/pokemon/catalog';
 import type {Catalog,Pokemon} from '../domain/pokemon/types';
-import {escapeHtml} from './ui';
-export function attachPokemonAutocomplete(input:HTMLInputElement,catalog:Catalog,entries:Pokemon[],onSelect:(pokemon:Pokemon)=>void,containerId=`${input.id}-suggestions`):()=>void{
+import {escapeHtml,pokemonImage} from './ui';
+export function attachPokemonAutocomplete(input:HTMLInputElement,catalog:Catalog,entries:Pokemon[],onSelect:(pokemon:Pokemon)=>void,containerId=`${input.id}-suggestions`,showSprites=false):()=>void{
   const controller=new AbortController();const options={signal:controller.signal};
   let list=document.getElementById(containerId);
   if(!list){list=document.createElement('ul');list.id=containerId;input.insertAdjacentElement('afterend',list);}
@@ -16,7 +16,7 @@ export function attachPokemonAutocomplete(input:HTMLInputElement,catalog:Catalog
   function highlight(){list!.querySelectorAll<HTMLElement>('[role="option"]').forEach((option,i)=>{option.setAttribute('aria-selected',String(i===active));if(i===active){input.setAttribute('aria-activedescendant',option.id);option.scrollIntoView({block:'nearest'});}});}
   input.addEventListener('input',()=>{
     active=-1;matches=searchPokemon(catalog,entries,input.value,false);
-    list!.innerHTML=matches.map((p,i)=>`<li role="presentation"><button id="${containerId}-${i}" type="button" role="option" aria-selected="false" tabindex="-1" data-id="${p.id}"><span>${escapeHtml(p.name)}</span></button></li>`).join('');
+    list!.innerHTML=matches.map((p,i)=>`<li role="presentation"><button id="${containerId}-${i}" type="button" role="option" aria-selected="false" tabindex="-1" data-id="${p.id}">${showSprites?pokemonImage(p).replace(/alt="[^"]*"/,'alt=""'):''}<span>${escapeHtml(p.name)}</span></button></li>`).join('');
     input.setAttribute('aria-expanded',String(matches.length>0));input.removeAttribute('aria-activedescendant');
     list!.querySelectorAll<HTMLButtonElement>('button').forEach((button,i)=>{button.addEventListener('pointerdown',event=>event.preventDefault(),options);button.addEventListener('click',()=>choose(i),options);});
   },options);

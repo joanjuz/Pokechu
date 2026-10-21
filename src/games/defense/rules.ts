@@ -2,6 +2,7 @@ import type {Pokemon} from '../../domain/pokemon/types';
 export interface AbilityEffect {immune?:string[];factors?:Record<string,number>;superEffective?:number;wonderGuard?:boolean}
 export interface DefenseData {version:string;catalogVersion:string;sourceRevision:string;types:string[];chart:Record<string,Record<string,number>>;effects:Record<string,AbilityEffect>}
 export interface DefenseState {target:Pokemon;ability:number;guesses:Pokemon[];misses:number;phase:'answer'|'won'}
+export const defenseCandidates=(entries:Pokemon[]):Pokemon[]=>entries.filter(p=>p.types.length===2);
 export function defenseProfile(pokemon:Pokemon,ability:number,data:DefenseData):Record<string,number>{
   const effect=data.effects[ability];
   return Object.fromEntries(data.types.map(type=>{

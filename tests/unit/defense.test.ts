@@ -1,11 +1,20 @@
 import {it,expect} from 'vitest';
 import imported from '../../data/generated/defense.json';
 import catalog from '../../data/generated/catalog.json';
-import {defenseProfile,defenseGroups,createDefense,guessDefense,hintCount,type DefenseData} from '../../src/games/defense/rules';
+import {defenseCandidates,defenseProfile,defenseGroups,createDefense,guessDefense,hintCount,type DefenseData} from '../../src/games/defense/rules';
 import {INFINITE_GAMES} from '../../src/games/infinite/rules';
 import {typeBadge} from '../../src/games/defense/type-icons';
 import type {Pokemon} from '../../src/domain/pokemon/types';
 const data=imported as DefenseData,entries=catalog.pokemon as Pokemon[],p=(id:number)=>entries.find(p=>p.id===id)!;
+it('elige solo respuestas de dos tipos en cada generación sin recurrir a tipos puros',()=>{
+  expect(defenseCandidates([p(25),p(635),p(212),p(4)])).toEqual([p(635),p(212)]);
+  expect(defenseCandidates([p(25),p(4)])).toEqual([]);expect(defenseCandidates([])).toEqual([]);
+  for(let gen=1;gen<=9;gen++){
+    const selected=entries.filter(p=>p.kind==='default'&&catalog.species.find(s=>s.id===p.speciesId)!.generation===gen),targets=defenseCandidates(selected);
+    expect(targets.length).toBeGreaterThan(0);expect(targets.length).toBeLessThan(selected.length);
+    expect(targets.every(p=>p.types.length===2&&selected.includes(p))).toBe(true);
+  }
+});
 it('reproduce la referencia de Hydreigon con Levitación y cubre los dieciocho tipos sin repetir',()=>{
   const profile=defenseProfile(p(635),26,data);expect(profile.Hada).toBe(4);for(const type of ['Hielo','Lucha','Bicho','Dragón'])expect(profile[type]).toBe(2);expect(profile.Tierra).toBe(0);expect(profile.Psíquico).toBe(0);for(const type of ['Fuego','Agua','Eléctrico','Planta','Fantasma','Siniestro'])expect(profile[type]).toBe(.5);
   const groups=defenseGroups(profile),types=groups.flatMap(g=>g.types);expect(types).toHaveLength(18);expect(new Set(types).size).toBe(18);expect(groups.find(g=>g.multiplier===.25)?.types).toEqual([]);
